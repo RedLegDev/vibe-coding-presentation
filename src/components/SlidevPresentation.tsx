@@ -41,8 +41,7 @@ const SlidevPresentation: React.FC<SlidevPresentationProps> = ({ isFullscreen })
     renderSlide(currentSlide);
     
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (!isFullscreen) return;
-      
+      // Removed the isFullscreen check to allow navigation in both modes
       if (e.key === 'ArrowRight' || e.key === ' ') {
         if (currentSlide < mockSlides.length - 1) {
           setCurrentSlide(prev => prev + 1);
@@ -54,18 +53,20 @@ const SlidevPresentation: React.FC<SlidevPresentationProps> = ({ isFullscreen })
       }
     };
     
+    // Only show toast when entering fullscreen for the first time
     if (isFullscreen) {
-      window.addEventListener('keydown', handleKeyDown);
       toast({
         title: "Presentation Controls",
         description: "Use arrow keys or space to navigate between slides",
       });
     }
     
+    window.addEventListener('keydown', handleKeyDown);
+    
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, [isFullscreen, currentSlide, toast]);
+  }, [isFullscreen, currentSlide, toast, mockSlides.length]);
   
   useEffect(() => {
     renderSlide(currentSlide);
