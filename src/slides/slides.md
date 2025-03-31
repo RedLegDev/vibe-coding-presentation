@@ -1,4 +1,3 @@
-
 ---
 theme: default
 background: https://source.unsplash.com/collection/94734566/1920x1080
@@ -266,6 +265,23 @@ class: text-center
   <div class="px-4 py-2 border border-gray-400 rounded-full">
     <carbon:partnership class="inline mr-2" /> Human creativity + AI capabilities = The future of development
   </div>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Brought to you by Red Leg Dev
+
+<div class="mt-8">
+  <a href="https://redleg.dev" target="_blank" class="text-xl font-bold text-blue-500 hover:text-blue-600 transition-colors">
+    redleg.dev
+  </a>
+</div>
+
+<div class="mt-4 text-sm opacity-75">
+  Empowering developers with innovative solutions
 </div>
 
 ---
