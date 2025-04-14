@@ -11,7 +11,6 @@ title: Accelerating Product Development
 mdc: true
 author: Matt Wagner <matt@redleg.dev>
 keywords: vibe coding, cursor, AI tools
-download: true
 ---
 
 # Accelerating Product Development
