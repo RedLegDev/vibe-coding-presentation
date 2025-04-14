@@ -153,6 +153,150 @@ class: px-2
 </div>
 
 ---
+transition: slide-up
+---
+
+# Leveraging LLMs for Product Management
+
+<div class="grid grid-cols-3 gap-4 mt-6">
+
+<v-click>
+<div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
+  <h3 class="font-bold text-blue-700 dark:text-blue-300">A. Requirement Gathering</h3>
+  <ul class="text-sm mt-2">
+    <li>Generating detailed requirements docs</li>
+    <li>Converting stakeholder interviews to specs</li>
+    <li>Surfacing edge cases and considerations</li>
+    <li>Creating acceptance criteria</li>
+  </ul>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
+  <h3 class="font-bold text-green-700 dark:text-green-300">B. User Story Creation</h3>
+  <ul class="text-sm mt-2">
+    <li>Crafting user stories from objectives</li>
+    <li>Generating acceptance criteria</li>
+    <li>Refining and prioritizing the backlog</li>
+    <li>Estimating complexity and effort</li>
+  </ul>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg">
+  <h3 class="font-bold text-purple-700 dark:text-purple-300">C. Product Roadmapping</h3>
+  <ul class="text-sm mt-2">
+    <li>Suggesting roadmap milestones</li>
+    <li>Identifying dependencies</li>
+    <li>Visualizing the product timeline</li>
+    <li>Aligning features with strategic goals</li>
+  </ul>
+</div>
+</v-click>
+
+</div>
+
+<div class="mt-8">
+<v-click>
+<div class="bg-amber-50 dark:bg-amber-900 p-4 rounded-lg flex items-center">
+  <div class="text-4xl mr-4">💡</div>
+  <div>
+    <p class="font-medium">LLMs enable product teams to focus on strategic decisions while automating the creation and management of product artifacts.</p>
+  </div>
+</div>
+</v-click>
+</div>
+
+---
+layout: section
+---
+
+# Hands-on Demos and Workflows
+
+Let's explore specific tools that can accelerate our development
+
+---
+layout: default
+---
+
+# A. GitHub Copilot
+
+<div class="grid grid-cols-2 gap-4">
+  <div class="text-sm">
+  <v-clicks>
+
+  - **For Coding & Refactoring**
+    - Real-time code suggestions
+    - Works in your existing IDE
+
+  - **Language & Framework Support**
+    - Multi-language compatibility
+    - Framework-aware completions
+
+  - **Context-Aware Intelligence**
+    - Understands your codebase
+    - Adapts to your coding style
+
+  </v-clicks>
+  <div class="mt-2">
+    <a href="https://github.com/features/copilot" target="_blank" class="text-blue-500 hover:underline">github.com/features/copilot</a>
+  </div>
+  </div>
+  
+  <div class="flex items-center justify-center">
+    <video 
+      src="https://github.githubassets.com/assets/hero-animation-lg-315ab307b8a1.mp4"
+      autoplay
+      loop
+      muted
+      class="rounded-lg shadow-xl w-full max-w-md"
+    ></video>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# B. Cursor
+
+<div class="grid grid-cols-2 gap-4">
+  <div class="text-sm">
+  <v-clicks>
+
+  - **AI-Enhanced Editor**
+    - Built on VS Code platform
+    - Optimized for AI assistance
+
+  - **Powerful Agent Mode**
+    - Makes changes to multiple files
+    - Runs terminal commands
+    - Reads & responds to error outputs
+
+  - **Intelligent Context**
+    - Understands your full project
+    - Accesses documentation & GitHub
+    - Autonomously solves complex tasks
+
+  </v-clicks>
+  <div class="mt-2">
+    <a href="https://www.cursor.com/" target="_blank" class="text-blue-500 hover:underline">cursor.com</a>
+  </div>
+  </div>
+  
+  <div class="flex items-center justify-center">
+    <img 
+      src="/images/cursor-screenshot.png"
+      alt="Cursor IDE screenshot showing AI-assisted coding"
+      class="rounded-lg shadow-xl w-full"
+    />
+  </div>
+</div>
+
+
+---
 layout: default
 ---
 
