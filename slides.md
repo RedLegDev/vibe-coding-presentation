@@ -48,7 +48,7 @@ image: https://source.unsplash.com/Wpnoqo2plFA/1920x1080
 transition: fade-out
 ---
 
-# I. The Rise of AI Development Tools
+# The Rise of AI Development Tools
 
 <div grid="~ cols-2 gap-4">
 <div>
@@ -86,7 +86,7 @@ layout: two-cols
 class: px-2
 ---
 
-# II. Use Cases for Large Language Models
+# Use Cases for Large Language Models
 
 <div class="text-sm">
 <v-clicks>
@@ -145,7 +145,7 @@ class: px-2
 transition: slide-up
 ---
 
-# III. Leveraging LLMs for Product Management
+# Leveraging LLMs for Product Management
 
 <div class="grid grid-cols-3 gap-4 mt-6">
 
@@ -202,7 +202,7 @@ transition: slide-up
 layout: section
 ---
 
-# IV. Hands-on Demos and Workflows
+# Hands-on Demos and Workflows
 
 Let's explore specific tools that can accelerate our development
 
@@ -460,7 +460,7 @@ transition: fade
 
 ---
 
-# V. Apply These Lessons to the Business
+# Apply These Lessons to the Business
 
 <div class="grid grid-cols-2 gap-4 mt-4">
 
