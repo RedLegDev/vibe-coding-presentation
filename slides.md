@@ -198,57 +198,57 @@ layout: default
 # The Power of MCP: Expanding AI Integration
 
 <div class="mt-2">
-  <div class="bg-blue-50 dark:bg-blue-900 p-3 rounded-lg mb-3">
-    <h3 class="font-bold mb-1">What is Model Context Protocol (MCP)?</h3>
-    <p class="text-xs">A protocol allowing AI models to interact with external tools, services, and environments through defined interfaces.</p>
+  <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg mb-4">
+    <h3 class="font-bold text-base mb-2">What is Model Context Protocol (MCP)?</h3>
+    <p class="text-sm">A protocol allowing AI models to interact with external tools, services, and environments through defined interfaces.</p>
   </div>
 </div>
 
-<div class="grid grid-cols-2 gap-4">
+<div class="grid grid-cols-2 gap-6">
   <div>
-    <h3 class="font-bold text-sm mb-1">Key Capabilities</h3>
-    <ul class="text-xs space-y-1">
+    <h3 class="font-bold text-base mb-2">Key Capabilities</h3>
+    <ul class="text-sm space-y-2">
       <li class="flex items-start">
-        <span class="text-blue-500 mr-1">→</span>
+        <span class="text-blue-500 mr-2">→</span>
         <span><strong>Tool Usage</strong> — Functions, APIs, services</span>
       </li>
       <li class="flex items-start">
-        <span class="text-blue-500 mr-1">→</span>
+        <span class="text-blue-500 mr-2">→</span>
         <span><strong>File System</strong> — Read, write, manage files</span>
       </li>
       <li class="flex items-start">
-        <span class="text-blue-500 mr-1">→</span>
+        <span class="text-blue-500 mr-2">→</span>
         <span><strong>Web Interaction</strong> — Browse, screenshots</span>
       </li>
     </ul>
   </div>
   
   <div>
-    <h3 class="font-bold text-sm mb-1">Real-World Applications</h3>
-    <ul class="text-xs space-y-1">
+    <h3 class="font-bold text-base mb-2">Real-World Applications</h3>
+    <ul class="text-sm space-y-2">
       <li class="flex items-start">
-        <span class="text-purple-500 mr-1">→</span>
-        <span><strong>Development</strong> — Terminal, repo mgmt</span>
+        <span class="text-purple-500 mr-2">→</span>
+        <span><strong>Development</strong> — Terminal, repo management</span>
       </li>
       <li class="flex items-start">
-        <span class="text-green-500 mr-1">→</span>
-        <span><strong>Integration</strong> — Databases, APIs</span>
+        <span class="text-green-500 mr-2">→</span>
+        <span><strong>Integration</strong> — Databases, APIs, services</span>
       </li>
       <li class="flex items-start">
-        <span class="text-amber-500 mr-1">→</span>
-        <span><strong>Automation</strong> — Workflows, pipelines</span>
+        <span class="text-amber-500 mr-2">→</span>
+        <span><strong>Automation</strong> — Workflows, CI/CD pipelines</span>
       </li>
       <li class="flex items-start">
-        <span class="text-red-500 mr-1">→</span>
+        <span class="text-red-500 mr-2">→</span>
         <span><strong>Analysis</strong> — Performance, accessibility</span>
       </li>
     </ul>
   </div>
 </div>
 
-<div class="mt-3 bg-gray-100 dark:bg-gray-800 p-2 rounded-lg">
-  <p class="text-xs">
-    <span class="font-bold">Why It Matters:</span> MCP transforms AI tools from isolated assistants to powerful agents that can interact with your entire tech ecosystem.
+<div class="mt-4 bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">
+  <p class="text-sm">
+    <span class="font-bold">Why It Matters:</span> MCP transforms AI tools from isolated assistants to powerful agents that can interact with your entire tech ecosystem, dramatically expanding their utility and impact.
   </p>
 </div>
 
