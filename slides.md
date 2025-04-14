@@ -29,20 +29,28 @@ mdc: true
 
 ---
 layout: image-right
-image: https://source.unsplash.com/Wpnoqo2plFA/1920x1080
+image: https://images.unsplash.com/photo-1568716353609-12ddc5c67f04?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
 # Today's Agenda
 
+<div class="text-lg">
 <v-clicks>
 
 - The Rise of AI Development Tools
 - Use Cases for Large Language Models (LLMs)
 - Leveraging LLMs for Product Management
 - Hands-on Demos and Workflows
-- Applying to Your Business
+- Applying Lessons to the Business
 
 </v-clicks>
+</div>
+
+<div class="mt-8 text-xl">
+  <v-click>
+    <p class="font-medium">Let's explore how AI is transforming development workflows!</p>
+  </v-click>
+</div>
 
 ---
 transition: fade-out
