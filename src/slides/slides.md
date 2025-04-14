@@ -1,3 +1,4 @@
+
 ---
 theme: default
 background: https://source.unsplash.com/collection/94734566/1920x1080
@@ -7,12 +8,12 @@ lineNumbers: false
 drawings:
   persist: false
 transition: slide-left
-title: Vibe Coding with AI
+title: Accelerating Product Development with Low-Code, No-Code, and Generative AI
 mdc: true
 ---
 
-# Vibe Coding with AI
-## How LLMs & AI Agents are Transforming Development
+# Accelerating Product Development
+## Leveraging Low-Code, No-Code, and Generative AI Tools
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -21,7 +22,7 @@ mdc: true
 </div>
 
 <div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
+  <a href="https://github.com/InContextSolutions" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
@@ -32,21 +33,20 @@ layout: image-right
 image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
-# What is "Vibe Coding"?
+# The Changing Landscape of Software Development
 
-A philosophy that prioritizes:
-
-- 😌 **Developer Happiness** - Enjoy the process
-- 🌊 **Flow State** - Maintain momentum and creativity
-- 🧘 **Intuitive Solutions** - Go with what feels right
-- 🎭 **Personal Expression** - Code reflects your style
-- 🔄 **Iterative Progress** - Evolve your code organically
+Key Transformation Drivers:
+- 🚀 **Rapid Technological Advancement**
+- 💡 **Democratization of Development**
+- 🤖 **AI-Powered Tooling**
+- 🌐 **Remote Collaboration**
+- ⚡ **Accelerated Time-to-Market**
 
 <br>
 
 <v-click>
 
->"Good vibes lead to good code."
+>"The future of development is about empowerment, not just coding."
 
 </v-click>
 
@@ -54,27 +54,27 @@ A philosophy that prioritizes:
 transition: fade-out
 ---
 
-# The AI Revolution in Coding
+# Low-Code, No-Code, and Generative AI Tools
 
 <div grid="~ cols-2 gap-4">
 <div>
 
-## Traditional Coding
-- Manual documentation lookup
-- Time spent on boilerplate
-- Searching for solutions
-- Lengthy debugging cycles
-- Working alone on problems
+## Traditional Development
+- Complex coding requirements
+- High technical barriers
+- Lengthy development cycles
+- Specialized skill sets needed
+- Linear progress
 
 </div>
 <div>
 
-## AI-Enhanced Coding
-- Instant knowledge access
-- Auto-generated scaffolding
-- Suggested implementations
-- Intelligent error detection
-- Collaborative problem-solving
+## Modern Development Ecosystem
+- Visual development interfaces
+- AI-assisted coding
+- Rapid prototyping
+- Cross-functional collaboration
+- Iterative and adaptive approaches
 
 </div>
 </div>
@@ -82,7 +82,7 @@ transition: fade-out
 <div class="mt-12 flex justify-center">
   <div class="text-center p-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg text-white">
     <carbon:arrow-up class="inline text-xl" /> 
-    <span class="text-xl ml-2">Developer Productivity & Satisfaction</span>
+    <span class="text-xl ml-2">Productivity and Innovation Acceleration</span>
   </div>
 </div>
 
@@ -91,21 +91,22 @@ layout: two-cols
 class: px-2
 ---
 
-# LLMs: Your Coding Companion
+# Key Tools and Platforms
 
 <v-clicks>
 
-- **Code Completion & Suggestions**
-  - Context-aware completions
-  - Function recommendations
+- **Generative AI Development Tools**
+  - GitHub Copilot
+  - Cursor
+  - Sourcegraph Cody
+  - OpenAI Codex
 
-- **Natural Language → Code**
-  - Express ideas in plain language
-  - Get functional code in return
-
-- **Documentation Generation**
-  - Auto-document functions and classes
-  - Create readable explanations
+- **Low-Code/No-Code Platforms**
+  - Lovable.dev
+  - Bubble
+  - Webflow
+  - Airtable
+  - Zapier
 
 </v-clicks>
 
@@ -114,18 +115,20 @@ class: px-2
 <div class="ml-4">
 
 ```typescript {all|2|4-8|all}
-// Express your intention in natural language
-// "Create a function that formats currency"
+// AI-assisted code generation example
+// Using GitHub Copilot to create a utility function
 
-const formatCurrency = (amount: number, 
-  currency = 'USD', 
-  locale = 'en-US') => {
-  return new Intl.NumberFormat(locale, 
-    { style: 'currency', currency }).format(amount);
+const generateUniqueId = (prefix = 'app', 
+  length = 8, 
+  charset = 'alphanumeric') => {
+  // AI can help generate secure, random identifiers
+  return crypto.randomBytes(length)
+    .toString('hex')
+    .slice(0, length);
 };
 
-// The LLM understands both the code 
-// and its purpose
+// Demonstrates how AI tools can 
+// accelerate development tasks
 ```
 
 </div>
@@ -134,21 +137,25 @@ const formatCurrency = (amount: number,
 transition: slide-up
 ---
 
-# AI Agents: Beyond Simple Assistance
+# Benefits of Modern Development Approaches
 
 <v-clicks>
 
-- **Autonomous Problem Solving**
-  - Define a goal and let AI explore solutions
-  - Receive multiple implementation options
+- **Increased Development Speed**
+  - Reduce time from concept to prototype
+  - Minimize repetitive coding tasks
+
+- **Enhanced Collaboration**
+  - Bridge technical and non-technical teams
+  - Enable business users to contribute
+
+- **Reduced Complexity**
+  - Simplify technical debt
+  - Lower barrier to entry for innovation
 
 - **Continuous Learning**
-  - Adapts to your coding style and preferences
-  - Improves with feedback and interaction
-
-- **Multi-step Reasoning**
-  - Breaks down complex problems
-  - Explains its thought process
+  - Adapt to new technologies quickly
+  - Stay competitive in fast-changing markets
 
 </v-clicks>
 
@@ -156,14 +163,12 @@ transition: slide-up
 
 ```mermaid
 graph LR
-  A[Problem Statement] --> B[AI Agent]
-  B --> C[Research]
-  B --> D[Code Generation]
-  B --> E[Testing]
-  C --> F[Solution Proposal]
-  D --> F
-  E --> F
-  F --> G[Refined Solution]
+  A[Business Idea] --> B[Low-Code/No-Code Platform]
+  B --> C[Rapid Prototype]
+  B --> D[AI-Assisted Refinement]
+  C --> E[Iterative Development]
+  D --> E
+  E --> F[Production-Ready Solution]
   style B fill:#4f46e5,color:#fff
 ```
 
@@ -174,25 +179,26 @@ layout: image-left
 image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
-# Finding Your Coding Vibe with AI
+# Practical Implementation Strategies
 
 <v-clicks>
 
-- **Personalized Workflows**
-  - Configure AI to match your style
-  - Automate repetitive tasks
+- **Assess Current Workflows**
+  - Identify bottlenecks
+  - Map potential tool integrations
 
-- **Focus on Creative Aspects**
-  - Let AI handle boilerplate
-  - Spend time on novel solutions
+- **Gradual Adoption**
+  - Start with small, low-risk projects
+  - Build team confidence and skills
 
-- **Balanced Collaboration**
-  - AI as a partner, not a replacement
-  - Human creativity + machine efficiency
+- **Training and Upskilling**
+  - Workshops on new tools
+  - Create internal knowledge base
+  - Encourage experimentation
 
-- **Continuous Learning Loop**
-  - AI learns from you
-  - You learn new patterns from AI
+- **Continuous Evaluation**
+  - Regular tool performance reviews
+  - Stay updated with emerging technologies
 
 </v-clicks>
 
@@ -206,34 +212,34 @@ class: text-center
 <div class="grid grid-cols-2 gap-8 mt-8">
 
 <div v-click class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
-  <h3 class="text-purple-600 dark:text-purple-400 font-bold mb-2">Refactoring Code</h3>
-  <p class="text-sm">Transform legacy code to modern patterns with AI guidance</p>
+  <h3 class="text-purple-600 dark:text-purple-400 font-bold mb-2">Rapid Prototyping</h3>
+  <p class="text-sm">Build MVPs in hours, not weeks</p>
   <div class="mt-2 text-xs text-left bg-black text-green-400 p-2 rounded">
-    "Refactor this callback-based API to use Promises"
+    "Create a customer feedback portal using Lovable"
   </div>
 </div>
 
 <div v-click class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
-  <h3 class="text-blue-600 dark:text-blue-400 font-bold mb-2">Debugging Assistance</h3>
-  <p class="text-sm">Explain errors and get fix suggestions in plain language</p>
+  <h3 class="text-blue-600 dark:text-blue-400 font-bold mb-2">AI-Assisted Development</h3>
+  <p class="text-sm">Leverage AI for code generation and optimization</p>
   <div class="mt-2 text-xs text-left bg-black text-red-400 p-2 rounded">
-    "Why am I getting 'Cannot read property of undefined'?"
+    "Use GitHub Copilot to implement complex algorithms"
   </div>
 </div>
 
 <div v-click class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
-  <h3 class="text-green-600 dark:text-green-400 font-bold mb-2">API Exploration</h3>
-  <p class="text-sm">Discover and learn new libraries through conversation</p>
+  <h3 class="text-green-600 dark:text-green-400 font-bold mb-2">Cross-Functional Collaboration</h3>
+  <p class="text-sm">Empower non-technical team members</p>
   <div class="mt-2 text-xs text-left bg-black text-blue-400 p-2 rounded">
-    "What's the best way to handle state in this React component?"
+    "Build internal tools with no-code platforms"
   </div>
 </div>
 
 <div v-click class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
-  <h3 class="text-yellow-600 dark:text-yellow-400 font-bold mb-2">Test Generation</h3>
-  <p class="text-sm">Auto-create test cases based on your implementation</p>
+  <h3 class="text-yellow-600 dark:text-yellow-400 font-bold mb-2">Workflow Automation</h3>
+  <p class="text-sm">Streamline repetitive processes</p>
   <div class="mt-2 text-xs text-left bg-black text-purple-400 p-2 rounded">
-    "Generate unit tests for this authentication service"
+    "Create automated workflows with Zapier"
   </div>
 </div>
 
@@ -241,29 +247,31 @@ class: text-center
 
 ---
 
-# Embracing the AI-Human Partnership
+# Challenges and Considerations
 
 <v-clicks>
 
-- **Complementary Strengths**
-  - AI: Memory, consistency, pattern recognition
-  - Human: Creativity, context understanding, judgment
+- **Data Security**
+  - Evaluate tool compliance
+  - Implement robust access controls
 
-- **Evolving Developer Skills**
-  - Prompt engineering
-  - AI collaboration techniques
-  - Higher-level system design
+- **Code Quality**
+  - Establish review processes
+  - Use AI as a tool, not a replacement
 
-- **Ethical Considerations**
-  - Attribution and licensing
-  - Understanding generated code
-  - Maintaining quality and security
+- **Learning Curve**
+  - Provide comprehensive training
+  - Create supportive learning environment
+
+- **Vendor Lock-in**
+  - Maintain flexibility
+  - Choose platforms with export capabilities
 
 </v-clicks>
 
 <div v-click class="mt-10 flex justify-center">
   <div class="px-4 py-2 border border-gray-400 rounded-full">
-    <carbon:partnership class="inline mr-2" /> Human creativity + AI capabilities = The future of development
+    <carbon:partnership class="inline mr-2" /> Balancing Innovation and Prudence
   </div>
 </div>
 
@@ -272,16 +280,33 @@ layout: center
 class: text-center
 ---
 
-# Brought to you by Red Leg Dev
+# Q&A and Discussion
 
 <div class="mt-8">
-  <a href="https://redleg.dev" target="_blank" class="text-xl font-bold text-blue-500 hover:text-blue-600 transition-colors">
-    redleg.dev
-  </a>
+  <p class="text-xl text-gray-600">
+    How can we leverage these tools to drive our product development?
+  </p>
 </div>
 
-<div class="mt-4 text-sm opacity-75">
-  Empowering developers with innovative solutions
+<div class="mt-12 grid grid-cols-2 gap-8">
+  <div>
+    <h3 class="text-blue-500 font-bold mb-2">Next Steps</h3>
+    <ul class="text-sm text-left">
+      <li>Tool evaluation workshop</li>
+      <li>Pilot project selection</li>
+      <li>Team training sessions</li>
+      <li>Regular progress reviews</li>
+    </ul>
+  </div>
+  <div>
+    <h3 class="text-purple-500 font-bold mb-2">Recommended Resources</h3>
+    <ul class="text-sm text-left">
+      <li>GitHub Copilot Learning Path</li>
+      <li>Lovable.dev Tutorials</li>
+      <li>No-Code Community Forums</li>
+      <li>AI in Development Webinars</li>
+    </ul>
+  </div>
 </div>
 
 ---
@@ -292,27 +317,14 @@ class: text-center
 # Thank You!
 
 <div class="text-xl text-gray-500 mt-4">
-  Start your vibe coding journey with AI today
+  Let's accelerate our product development together
 </div>
 
-<div class="mt-12 grid grid-cols-2 gap-8">
-  <div>
-    <h3 class="text-blue-500 font-bold mb-2">Resources</h3>
-    <ul class="text-sm text-left">
-      <li>GitHub Copilot</li>
-      <li>Lovable AI Editor</li>
-      <li>ChatGPT Code Interpreter</li>
-      <li>Anthropic Claude</li>
-    </ul>
-  </div>
-  <div>
-    <h3 class="text-purple-500 font-bold mb-2">Next Steps</h3>
-    <ul class="text-sm text-left">
-      <li>Start with simple AI-assisted tasks</li>
-      <li>Learn effective prompting</li>
-      <li>Join AI developer communities</li>
-      <li>Share your experiences</li>
-    </ul>
-  </div>
+<div class="mt-12">
+  <a href="https://incontextsolutions.com" target="_blank" class="text-xl font-bold text-blue-500 hover:text-blue-600 transition-colors">
+    InContext Solutions
+  </a>
 </div>
+
+```
 
