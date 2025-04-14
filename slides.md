@@ -243,32 +243,37 @@ layout: default
 </div>
 
 ---
-layout: image-right
-image: https://www.cursor.so/img/window-cursor.webp
+layout: default
 ---
 
 # B. Cursor
 
-<div class="text-sm">
-<v-clicks>
+<div class="grid grid-cols-2 gap-4">
+  <div class="text-sm">
+  <v-clicks>
 
-- **AI-Enhanced Editor**
-  - Built on VS Code platform
-  - Optimized for AI assistance
+  - **AI-Enhanced Editor**
+    - Built on VS Code platform
+    - Optimized for AI assistance
 
-- **Intelligent Interface**
-  - Project-aware chat
-  - Contextual guidance
+  - **Intelligent Interface**
+    - Project-aware chat
+    - Contextual guidance
 
-- **Smart Editing Features**
-  - Natural language to code
-  - Automated bug fixing
+  - **Smart Editing Features**
+    - Natural language to code
+    - Automated bug fixing
 
-- **Low-Code Development**
-  - Rapid UI prototyping
-  - Conversation-driven building
-
-</v-clicks>
+  </v-clicks>
+  </div>
+  
+  <div class="flex items-center justify-center">
+    <img 
+      src="/images/cursor-screenshot.png"
+      alt="Cursor IDE screenshot showing AI-assisted coding"
+      class="rounded-lg shadow-xl w-full"
+    />
+  </div>
 </div>
 
 ---
