@@ -256,13 +256,15 @@ layout: default
     - Built on VS Code platform
     - Optimized for AI assistance
 
-  - **Intelligent Interface**
-    - Project-aware chat
-    - Contextual guidance
+  - **Powerful Agent Mode**
+    - Makes changes to multiple files
+    - Runs terminal commands
+    - Reads & responds to error outputs
 
-  - **Smart Editing Features**
-    - Natural language to code
-    - Automated bug fixing
+  - **Intelligent Context**
+    - Understands your full project
+    - Accesses documentation & GitHub
+    - Autonomously solves complex tasks
 
   </v-clicks>
   </div>
