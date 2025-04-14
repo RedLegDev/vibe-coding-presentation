@@ -34,7 +34,7 @@ image: https://images.unsplash.com/photo-1568716353609-12ddc5c67f04?q=80&w=1974&
 
 # Today's Agenda
 
-<div class="text-lg">
+<div class="text-xl">
 <v-clicks>
 
 - The Rise of AI Development Tools
