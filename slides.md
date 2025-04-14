@@ -284,6 +284,26 @@ layout: default
 </div>
 
 ---
+layout: center
+class: text-center
+---
+
+# Live Demo: GitHub Copilot
+
+<div class="text-xl mb-10">Let's see GitHub Copilot in action</div>
+
+<div class="flex justify-center">
+  <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg max-w-lg text-left">
+    <h3 class="font-bold mb-2">Demo Focus Areas:</h3>
+    <ul class="space-y-2">
+      <li>• Real-time code suggestions</li>
+      <li>• Function completion from comments</li>
+      <li>• Context-aware completions</li>
+    </ul>
+  </div>
+</div>
+
+---
 layout: default
 ---
 
@@ -322,6 +342,25 @@ layout: default
   </div>
 </div>
 
+---
+layout: center
+class: text-center
+---
+
+# Live Demo: Cursor
+
+<div class="text-xl mb-10">Watch Cursor's powerful Agent Mode solve complex tasks</div>
+
+<div class="flex justify-center">
+  <div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg max-w-lg text-left">
+    <h3 class="font-bold mb-2">Demo Focus Areas:</h3>
+    <ul class="space-y-2">
+      <li>• Agent Mode making multi-file changes</li>
+      <li>• Terminal command execution</li>
+      <li>• Complex problem solving with context</li>
+    </ul>
+  </div>
+</div>
 
 ---
 layout: default
@@ -358,6 +397,26 @@ layout: default
       alt="Lovable.dev interface showing AI app generation"
       class="rounded-lg shadow-xl w-full"
     />
+  </div>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Live Demo: Lovable.dev
+
+<div class="text-xl mb-10">From idea to deployed app in minutes</div>
+
+<div class="flex justify-center">
+  <div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg max-w-lg text-left">
+    <h3 class="font-bold mb-2">Demo Focus Areas:</h3>
+    <ul class="space-y-2">
+      <li>• Creating a complete app from a text prompt</li>
+      <li>• Exploring the generated codebase</li>
+      <li>• Deployment and hosting</li>
+    </ul>
   </div>
 </div>
 
