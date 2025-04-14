@@ -9,6 +9,9 @@ drawings:
 transition: slide-left
 title: Accelerating Product Development
 mdc: true
+author: Matt Wagner <matt@redleg.dev>
+keywords: vibe coding, cursor, AI tools
+download: true
 ---
 
 # Accelerating Product Development
@@ -547,6 +550,84 @@ transition: fade
 </div>
 
 ---
+transition: slide-up
+---
+
+# The Power of MCP: Expanding AI Integration
+
+<div class="grid grid-cols-2 gap-6 mt-4">
+  <div>
+    <h3 class="font-bold text-lg mb-2">What is Model Context Protocol (MCP)?</h3>
+    <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
+      <p class="text-sm">A standardized protocol that allows AI models to interact with external tools, services, and environments through defined interfaces.</p>
+      <p class="text-sm mt-2">Think of it as an "API for AI" that enables LLMs to connect with virtually any service or system.</p>
+    </div>
+    
+    <h3 class="font-bold text-lg mt-4 mb-2">Key Capabilities</h3>
+    <ul class="text-sm space-y-2">
+      <li class="flex items-start">
+        <span class="text-blue-500 mr-2">→</span>
+        <span><strong>Tool Usage</strong> — Models can call functions, APIs, and services</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-blue-500 mr-2">→</span>
+        <span><strong>File System Access</strong> — Read, write, and manage files</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-blue-500 mr-2">→</span>
+        <span><strong>Web Interaction</strong> — Browse websites, take screenshots</span>
+      </li>
+    </ul>
+  </div>
+  
+  <div>
+    <h3 class="font-bold text-lg mb-2">Real-World Applications</h3>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="bg-purple-50 dark:bg-purple-900 p-3 rounded-lg">
+        <h4 class="font-bold text-purple-700 dark:text-purple-300 text-sm">Development</h4>
+        <ul class="text-xs mt-1 space-y-1">
+          <li>• Terminal command execution</li>
+          <li>• Repository management</li>
+          <li>• Debugging assistance</li>
+        </ul>
+      </div>
+      
+      <div class="bg-green-50 dark:bg-green-900 p-3 rounded-lg">
+        <h4 class="font-bold text-green-700 dark:text-green-300 text-sm">Integration</h4>
+        <ul class="text-xs mt-1 space-y-1">
+          <li>• Connect to databases</li>
+          <li>• Pull from data warehouses</li>
+          <li>• Access cloud services</li>
+        </ul>
+      </div>
+      
+      <div class="bg-amber-50 dark:bg-amber-900 p-3 rounded-lg">
+        <h4 class="font-bold text-amber-700 dark:text-amber-300 text-sm">Automation</h4>
+        <ul class="text-xs mt-1 space-y-1">
+          <li>• Workflow orchestration</li>
+          <li>• CI/CD pipeline integration</li>
+          <li>• Multi-step task handling</li>
+        </ul>
+      </div>
+      
+      <div class="bg-red-50 dark:bg-red-900 p-3 rounded-lg">
+        <h4 class="font-bold text-red-700 dark:text-red-300 text-sm">Analysis</h4>
+        <ul class="text-xs mt-1 space-y-1">
+          <li>• Performance auditing</li>
+          <li>• Accessibility checking</li>
+          <li>• Security scanning</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="mt-4 bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">
+      <h4 class="font-bold mb-1">Why It Matters</h4>
+      <p class="text-xs">MCP transforms AI tools from isolated assistants to powerful agents that can interact with your entire tech ecosystem, dramatically expanding their utility and impact.</p>
+    </div>
+  </div>
+</div>
+
+---
 
 # Apply These Lessons to the Business
 
@@ -656,4 +737,5 @@ layout: end
 
 # Thank You
 
+Questions?
 Questions?
