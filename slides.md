@@ -314,10 +314,10 @@ image: https://lovable.dev/images/og-image.png
 <v-click>
 <div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
   <div class="bg-green-600 text-white p-3 text-center">
-    <h3 class="font-bold">Appsmith</h3>
+    <h3 class="font-bold">Airtable</h3>
   </div>
   <div class="p-4 bg-white dark:bg-gray-800">
-    <p class="text-sm">Open-source platform for building internal tools with visual development, API connections, and ready-to-use widgets.</p>
+    <p class="text-sm">Spreadsheet-database hybrid that combines the simplicity of a spreadsheet with the power of a database for creating custom solutions.</p>
   </div>
 </div>
 </v-click>
