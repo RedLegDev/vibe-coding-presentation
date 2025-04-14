@@ -694,7 +694,7 @@ transition: fade
   <p class="text-right text-xs">— Tobi Lütke, CEO of Shopify</p>
 </div>
 
-<div class="grid grid-cols-2 gap-4">  
+<div class="grid grid-cols-1 gap-4">  
   <div>
     <h3 class="font-bold text-base mb-2">Implementation Strategy</h3>
     <ul class="text-sm space-y-2">
