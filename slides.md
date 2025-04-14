@@ -197,59 +197,59 @@ layout: default
 
 # The Power of MCP: Expanding AI Integration
 
-<div class="mt-4">
-  <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg mb-4">
-    <h3 class="font-bold text-lg mb-2">What is Model Context Protocol (MCP)?</h3>
-    <p class="text-sm">A standardized protocol that allows AI models to interact with external tools, services, and environments through defined interfaces.</p>
-    <p class="text-sm mt-2">Think of it as an "API for AI" that enables LLMs to connect with virtually any service or system.</p>
+<div class="mt-2">
+  <div class="bg-blue-50 dark:bg-blue-900 p-3 rounded-lg mb-3">
+    <h3 class="font-bold mb-1">What is Model Context Protocol (MCP)?</h3>
+    <p class="text-xs">A protocol allowing AI models to interact with external tools, services, and environments through defined interfaces.</p>
   </div>
 </div>
 
-<div class="grid grid-cols-2 gap-4 mt-4">
+<div class="grid grid-cols-2 gap-4">
   <div>
-    <h3 class="font-bold text-lg mb-2">Key Capabilities</h3>
-    <ul class="text-sm space-y-2">
+    <h3 class="font-bold text-sm mb-1">Key Capabilities</h3>
+    <ul class="text-xs space-y-1">
       <li class="flex items-start">
-        <span class="text-blue-500 mr-2">→</span>
-        <span><strong>Tool Usage</strong> — Models can call functions, APIs, and services</span>
+        <span class="text-blue-500 mr-1">→</span>
+        <span><strong>Tool Usage</strong> — Functions, APIs, services</span>
       </li>
       <li class="flex items-start">
-        <span class="text-blue-500 mr-2">→</span>
-        <span><strong>File System Access</strong> — Read, write, and manage files</span>
+        <span class="text-blue-500 mr-1">→</span>
+        <span><strong>File System</strong> — Read, write, manage files</span>
       </li>
       <li class="flex items-start">
-        <span class="text-blue-500 mr-2">→</span>
-        <span><strong>Web Interaction</strong> — Browse websites, take screenshots</span>
+        <span class="text-blue-500 mr-1">→</span>
+        <span><strong>Web Interaction</strong> — Browse, screenshots</span>
       </li>
     </ul>
   </div>
   
   <div>
-    <h3 class="font-bold text-lg mb-2">Real-World Applications</h3>
-    <ul class="text-sm space-y-2">
+    <h3 class="font-bold text-sm mb-1">Real-World Applications</h3>
+    <ul class="text-xs space-y-1">
       <li class="flex items-start">
-        <span class="text-purple-500 mr-2">→</span>
-        <span><strong>Development</strong> — Terminal commands, repo management</span>
+        <span class="text-purple-500 mr-1">→</span>
+        <span><strong>Development</strong> — Terminal, repo mgmt</span>
       </li>
       <li class="flex items-start">
-        <span class="text-green-500 mr-2">→</span>
-        <span><strong>Integration</strong> — Connect to databases, APIs, services</span>
+        <span class="text-green-500 mr-1">→</span>
+        <span><strong>Integration</strong> — Databases, APIs</span>
       </li>
       <li class="flex items-start">
-        <span class="text-amber-500 mr-2">→</span>
-        <span><strong>Automation</strong> — Workflow orchestration, CI/CD pipelines</span>
+        <span class="text-amber-500 mr-1">→</span>
+        <span><strong>Automation</strong> — Workflows, pipelines</span>
       </li>
       <li class="flex items-start">
-        <span class="text-red-500 mr-2">→</span>
-        <span><strong>Analysis</strong> — Performance and accessibility testing</span>
+        <span class="text-red-500 mr-1">→</span>
+        <span><strong>Analysis</strong> — Performance, accessibility</span>
       </li>
     </ul>
   </div>
 </div>
 
-<div class="mt-4 bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">
-  <h4 class="font-bold mb-1">Why It Matters</h4>
-  <p class="text-sm">MCP transforms AI tools from isolated assistants to powerful agents that can interact with your entire tech ecosystem, dramatically expanding their utility and impact.</p>
+<div class="mt-3 bg-gray-100 dark:bg-gray-800 p-2 rounded-lg">
+  <p class="text-xs">
+    <span class="font-bold">Why It Matters:</span> MCP transforms AI tools from isolated assistants to powerful agents that can interact with your entire tech ecosystem.
+  </p>
 </div>
 
 ---
@@ -466,112 +466,6 @@ transition: fade
       </ul>
     </div>
   </div>
-</div>
-
----
-transition: slide-up
-layout: default
----
-
-# The Power of MCP: Expanding AI Integration
-
-<div class="mt-4">
-  <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg mb-4">
-    <h3 class="font-bold text-lg mb-2">What is Model Context Protocol (MCP)?</h3>
-    <p class="text-sm">A standardized protocol that allows AI models to interact with external tools, services, and environments through defined interfaces.</p>
-    <p class="text-sm mt-2">Think of it as an "API for AI" that enables LLMs to connect with virtually any service or system.</p>
-  </div>
-</div>
-
-<div class="grid grid-cols-2 gap-4 mt-4">
-  <div>
-    <h3 class="font-bold text-lg mb-2">Key Capabilities</h3>
-    <ul class="text-sm space-y-2">
-      <li class="flex items-start">
-        <span class="text-blue-500 mr-2">→</span>
-        <span><strong>Tool Usage</strong> — Models can call functions, APIs, and services</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-blue-500 mr-2">→</span>
-        <span><strong>File System Access</strong> — Read, write, and manage files</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-blue-500 mr-2">→</span>
-        <span><strong>Web Interaction</strong> — Browse websites, take screenshots</span>
-      </li>
-    </ul>
-  </div>
-  
-  <div>
-    <h3 class="font-bold text-lg mb-2">Real-World Applications</h3>
-    <ul class="text-sm space-y-2">
-      <li class="flex items-start">
-        <span class="text-purple-500 mr-2">→</span>
-        <span><strong>Development</strong> — Terminal commands, repo management</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-green-500 mr-2">→</span>
-        <span><strong>Integration</strong> — Connect to databases, APIs, services</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-amber-500 mr-2">→</span>
-        <span><strong>Automation</strong> — Workflow orchestration, CI/CD pipelines</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-red-500 mr-2">→</span>
-        <span><strong>Analysis</strong> — Performance and accessibility testing</span>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="mt-4 bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">
-  <h4 class="font-bold mb-1">Why It Matters</h4>
-  <p class="text-sm">MCP transforms AI tools from isolated assistants to powerful agents that can interact with your entire tech ecosystem, dramatically expanding their utility and impact.</p>
-</div>
-
----
-
-# Apply These Lessons to the Business
-
-<div class="grid grid-cols-2 gap-4 mt-4">
-
-<v-click>
-<div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
-  <h3 class="font-bold text-lg text-blue-700 dark:text-blue-300">A. Streamlining Our Processes</h3>
-  <p class="mt-2 text-sm">Identifying specific processes in your workflow that could benefit from AI tools: requirements documentation, code reviews, testing, and deployment.</p>
-  <div class="mt-2 text-xs font-medium text-blue-700 dark:text-blue-300">Example: Using AI to generate test cases based on user stories</div>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
-  <h3 class="font-bold text-lg text-green-700 dark:text-green-300">B. Evaluating & Integrating Tools</h3>
-  <p class="mt-2 text-sm">Creating a framework for evaluating AI tools based on your specific needs, security requirements, and integration capabilities.</p>
-  <div class="mt-2 text-xs font-medium text-green-700 dark:text-green-300">Example: Pilot of GitHub Copilot for a sprint cycle</div>
-</div>
-</v-click>
-
-</div>
-
-<div class="grid grid-cols-2 gap-4 mt-4">
-
-<v-click>
-<div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg">
-  <h3 class="font-bold text-lg text-purple-700 dark:text-purple-300">C. Upskilling Our Teams</h3>
-  <p class="mt-2 text-sm">Developing a training program for product and development teams to effectively leverage AI tools and prompt engineering.</p>
-  <div class="mt-2 text-xs font-medium text-purple-700 dark:text-purple-300">Example: Lunch & learn sessions on prompt crafting</div>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-amber-50 dark:bg-amber-900 p-4 rounded-lg">
-  <h3 class="font-bold text-lg text-amber-700 dark:text-amber-300">D. Measuring Impact</h3>
-  <p class="mt-2 text-sm">Establishing KPIs to measure the effectiveness of AI tools on development velocity, quality, and team satisfaction.</p>
-  <div class="mt-2 text-xs font-medium text-amber-700 dark:text-amber-300">Example: Compare sprint velocity before and after implementation</div>
-</div>
-</v-click>
-
 </div>
 
 ---
