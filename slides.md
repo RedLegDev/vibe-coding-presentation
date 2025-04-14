@@ -153,149 +153,6 @@ class: px-2
 </div>
 
 ---
-transition: slide-up
----
-
-# Leveraging LLMs for Product Management
-
-<div class="grid grid-cols-3 gap-4 mt-6">
-
-<v-click>
-<div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
-  <h3 class="font-bold text-blue-700 dark:text-blue-300">A. Requirement Gathering</h3>
-  <ul class="text-sm mt-2">
-    <li>Generating detailed requirements docs</li>
-    <li>Converting stakeholder interviews to specs</li>
-    <li>Surfacing edge cases and considerations</li>
-    <li>Creating acceptance criteria</li>
-  </ul>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
-  <h3 class="font-bold text-green-700 dark:text-green-300">B. User Story Creation</h3>
-  <ul class="text-sm mt-2">
-    <li>Crafting user stories from objectives</li>
-    <li>Generating acceptance criteria</li>
-    <li>Refining and prioritizing the backlog</li>
-    <li>Estimating complexity and effort</li>
-  </ul>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg">
-  <h3 class="font-bold text-purple-700 dark:text-purple-300">C. Product Roadmapping</h3>
-  <ul class="text-sm mt-2">
-    <li>Suggesting roadmap milestones</li>
-    <li>Identifying dependencies</li>
-    <li>Visualizing the product timeline</li>
-    <li>Aligning features with strategic goals</li>
-  </ul>
-</div>
-</v-click>
-
-</div>
-
-<div class="mt-8">
-<v-click>
-<div class="bg-amber-50 dark:bg-amber-900 p-4 rounded-lg flex items-center">
-  <div class="text-4xl mr-4">💡</div>
-  <div>
-    <p class="font-medium">LLMs enable product teams to focus on strategic decisions while automating the creation and management of product artifacts.</p>
-  </div>
-</div>
-</v-click>
-</div>
-
----
-layout: section
----
-
-# Hands-on Demos and Workflows
-
-Let's explore specific tools that can accelerate our development
-
----
-layout: default
----
-
-# A. GitHub Copilot
-
-<div class="grid grid-cols-2 gap-4">
-  <div class="text-sm">
-  <v-clicks>
-
-  - **For Coding & Refactoring**
-    - Real-time code suggestions
-    - Works in your existing IDE
-
-  - **Language & Framework Support**
-    - Multi-language compatibility
-    - Framework-aware completions
-
-  - **Context-Aware Intelligence**
-    - Understands your codebase
-    - Adapts to your coding style
-
-  </v-clicks>
-  <div class="mt-2">
-    <a href="https://github.com/features/copilot" target="_blank" class="text-blue-500 hover:underline">github.com/features/copilot</a>
-  </div>
-  </div>
-  
-  <div class="flex items-center justify-center">
-    <video 
-      src="https://github.githubassets.com/assets/hero-animation-lg-315ab307b8a1.mp4"
-      autoplay
-      loop
-      muted
-      class="rounded-lg shadow-xl w-full max-w-md"
-    ></video>
-  </div>
-</div>
-
----
-layout: default
----
-
-# B. Cursor
-
-<div class="grid grid-cols-2 gap-4">
-  <div class="text-sm">
-  <v-clicks>
-
-  - **AI-Enhanced Editor**
-    - Built on VS Code platform
-    - Optimized for AI assistance
-
-  - **Powerful Agent Mode**
-    - Makes changes to multiple files
-    - Runs terminal commands
-    - Reads & responds to error outputs
-
-  - **Intelligent Context**
-    - Understands your full project
-    - Accesses documentation & GitHub
-    - Autonomously solves complex tasks
-
-  </v-clicks>
-  <div class="mt-2">
-    <a href="https://www.cursor.com/" target="_blank" class="text-blue-500 hover:underline">cursor.com</a>
-  </div>
-  </div>
-  
-  <div class="flex items-center justify-center">
-    <img 
-      src="/images/cursor-screenshot.png"
-      alt="Cursor IDE screenshot showing AI-assisted coding"
-      class="rounded-lg shadow-xl w-full"
-    />
-  </div>
-</div>
-
----
 layout: default
 ---
 
@@ -331,6 +188,68 @@ layout: default
       class="rounded-lg shadow-xl w-full"
     />
   </div>
+</div>
+
+---
+transition: slide-up
+layout: default
+---
+
+# The Power of MCP: Expanding AI Integration
+
+<div class="mt-4">
+  <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg mb-4">
+    <h3 class="font-bold text-lg mb-2">What is Model Context Protocol (MCP)?</h3>
+    <p class="text-sm">A standardized protocol that allows AI models to interact with external tools, services, and environments through defined interfaces.</p>
+    <p class="text-sm mt-2">Think of it as an "API for AI" that enables LLMs to connect with virtually any service or system.</p>
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-4 mt-4">
+  <div>
+    <h3 class="font-bold text-lg mb-2">Key Capabilities</h3>
+    <ul class="text-sm space-y-2">
+      <li class="flex items-start">
+        <span class="text-blue-500 mr-2">→</span>
+        <span><strong>Tool Usage</strong> — Models can call functions, APIs, and services</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-blue-500 mr-2">→</span>
+        <span><strong>File System Access</strong> — Read, write, and manage files</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-blue-500 mr-2">→</span>
+        <span><strong>Web Interaction</strong> — Browse websites, take screenshots</span>
+      </li>
+    </ul>
+  </div>
+  
+  <div>
+    <h3 class="font-bold text-lg mb-2">Real-World Applications</h3>
+    <ul class="text-sm space-y-2">
+      <li class="flex items-start">
+        <span class="text-purple-500 mr-2">→</span>
+        <span><strong>Development</strong> — Terminal commands, repo management</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-green-500 mr-2">→</span>
+        <span><strong>Integration</strong> — Connect to databases, APIs, services</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-amber-500 mr-2">→</span>
+        <span><strong>Automation</strong> — Workflow orchestration, CI/CD pipelines</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-red-500 mr-2">→</span>
+        <span><strong>Analysis</strong> — Performance and accessibility testing</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="mt-4 bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">
+  <h4 class="font-bold mb-1">Why It Matters</h4>
+  <p class="text-sm">MCP transforms AI tools from isolated assistants to powerful agents that can interact with your entire tech ecosystem, dramatically expanding their utility and impact.</p>
 </div>
 
 ---
@@ -588,19 +507,19 @@ layout: default
     <ul class="text-sm space-y-2">
       <li class="flex items-start">
         <span class="text-purple-500 mr-2">→</span>
-        <span><strong>Development</strong> — Terminal commands, repository management, debugging</span>
+        <span><strong>Development</strong> — Terminal commands, repo management</span>
       </li>
       <li class="flex items-start">
         <span class="text-green-500 mr-2">→</span>
-        <span><strong>Integration</strong> — Connect to databases, data warehouses, cloud services</span>
+        <span><strong>Integration</strong> — Connect to databases, APIs, services</span>
       </li>
       <li class="flex items-start">
         <span class="text-amber-500 mr-2">→</span>
-        <span><strong>Automation</strong> — Workflow orchestration, CI/CD pipelines, multi-step tasks</span>
+        <span><strong>Automation</strong> — Workflow orchestration, CI/CD pipelines</span>
       </li>
       <li class="flex items-start">
         <span class="text-red-500 mr-2">→</span>
-        <span><strong>Analysis</strong> — Performance auditing, accessibility checking, security scanning</span>
+        <span><strong>Analysis</strong> — Performance and accessibility testing</span>
       </li>
     </ul>
   </div>
