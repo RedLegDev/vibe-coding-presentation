@@ -1,639 +1,517 @@
 ---
-# You can also start simply with 'default'
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply unocss classes to the current slide
+theme: default
+background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
-# https://sli.dev/features/drawing
+highlighter: shiki
+lineNumbers: false
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
+title: Accelerating Product Development
 mdc: true
-# open graph
-# seoMeta:
-#  ogImage: https://cover.sli.dev
 ---
 
-# Welcome to Slidev
+# Accelerating Product Development
+## Leveraging Low-Code, No-Code, and Generative AI
 
-Presentation slides for developers
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
+<div class="pt-12">
+  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
+    Press Space for next page <carbon:arrow-right class="inline"/>
+  </span>
 </div>
 
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
+<div class="abs-br m-6 flex gap-2">
+  <a href="https://redleg.dev" target="_blank" alt="Red Leg Dev" title="Red Leg Dev"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-globe />
   </a>
 </div>
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
+---
+layout: image-right
+image: https://source.unsplash.com/Wpnoqo2plFA/1920x1080
+---
+
+# Today's Agenda
+
+<v-clicks>
+
+- The Changing Development Landscape
+- Understanding Low-Code & No-Code Solutions
+- Power of Generative AI in Development
+- Tools Deep Dive:
+  - GitHub Copilot
+  - Cursor
+  - Lovable.dev
+  - And more...
+- Optimizing Our Workflows
+- Practical Applications & Next Steps
+
+</v-clicks>
 
 ---
 transition: fade-out
 ---
 
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
----
-transition: slide-up
-level: 2
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
+# The Development Landscape Evolution
 
 <div grid="~ cols-2 gap-4">
 <div>
 
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
+## Traditional Development
+- Manual coding for every feature
+- Long development cycles
+- Specialized technical expertise needed
+- Limited business user involvement
+- Siloed knowledge and skills
 
 </div>
 <div>
 
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
+## Modern Development
+- Automated code generation
+- Rapid iteration and deployment
+- Democratized development
+- Business users as creators
+- Collaborative, cross-functional teams
 
 </div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
 </div>
 
-<br>
+<div class="mt-8">
+  <v-click>
+    <div class="bg-blue-100 dark:bg-blue-800 p-4 rounded-lg">
+      <h3 class="text-blue-700 dark:text-blue-200 font-bold">Why Change Now?</h3>
+      <p class="text-sm">Increased demand for digital solutions, competitive pressure, and the availability of mature tools that make this transition not just possible, but essential.</p>
+    </div>
+  </v-click>
+</div>
+
+---
+layout: two-cols
+class: px-2
+---
+
+# Low-Code & No-Code Platforms
+
+<v-clicks>
+
+- **Visual Development Environments**
+  - Drag-and-drop interfaces
+  - Pre-built components and templates
+
+- **Business Logic Without Code**
+  - Visual workflow builders
+  - Rule-based logic configuration  
+
+- **Integration Capabilities**
+  - Connect to existing systems
+  - API connectivity without coding
+
+- **Citizen Developer Empowerment**
+  - Business users building solutions
+  - IT governance with flexibility
+
+</v-clicks>
+
+::right::
+
+<div class="ml-4">
 
 <v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
+<div class="rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
+  <div class="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-4">
+    <h3 class="font-bold">Benefits</h3>
+  </div>
+  <div class="p-4 bg-white dark:bg-gray-800">
+    <ul class="space-y-2">
+      <li>🚀 10x faster development</li>
+      <li>👥 Broader participation</li>
+      <li>💰 Reduced development costs</li>
+      <li>🔄 Faster iteration cycles</li>
+      <li>🤝 Better business-IT alignment</li>
+    </ul>
+  </div>
+</div>
 </v-click>
 
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
 </div>
 
 ---
+transition: slide-up
+---
 
-# Motions
+# Generative AI: The Game Changer
 
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
+<div class="grid grid-cols-3 gap-4 mt-6">
 
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
+<v-click>
+<div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
+  <h3 class="font-bold text-blue-700 dark:text-blue-300">Code Generation</h3>
+  <ul class="text-sm mt-2">
+    <li>Complete functions from comments</li>
+    <li>Convert pseudocode to working code</li>
+    <li>Multiple language support</li>
+    <li>Generate boilerplate automatically</li>
+  </ul>
 </div>
-```
+</v-click>
 
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
+<v-click>
+<div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
+  <h3 class="font-bold text-green-700 dark:text-green-300">Problem Solving</h3>
+  <ul class="text-sm mt-2">
+    <li>Debug complex issues</li>
+    <li>Suggest optimization strategies</li>
+    <li>Explain unfamiliar code</li>
+    <li>Refactor legacy solutions</li>
+  </ul>
+</div>
+</v-click>
 
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
+<v-click>
+<div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg">
+  <h3 class="font-bold text-purple-700 dark:text-purple-300">Knowledge Access</h3>
+  <ul class="text-sm mt-2">
+    <li>Instant documentation lookup</li>
+    <li>Contextual best practices</li>
+    <li>Framework-specific guidance</li>
+    <li>Learning acceleration</li>
+  </ul>
+</div>
+</v-click>
+
+</div>
+
+<div class="mt-8">
+<v-click>
+<div class="bg-amber-50 dark:bg-amber-900 p-4 rounded-lg flex items-center">
+  <div class="text-4xl mr-4">💡</div>
+  <div>
+    <p class="font-medium">Generative AI doesn't replace developers - it supercharges them by automating routine tasks and augmenting human creativity.</p>
   </div>
 </div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
+</v-click>
 </div>
 
 ---
+layout: section
+---
 
-# LaTeX
+# Tools Deep Dive
 
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
+Let's explore the specific tools that can accelerate our development
 
-<div h-3 />
+---
+layout: image-left
+image: https://github.githubassets.com/images/modules/site/copilot/copilot-full.png
+---
 
-Inline $\sqrt{3x-1}+(1+x)^2$
+# GitHub Copilot
 
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
+<v-clicks>
 
-[Learn more](https://sli.dev/features/latex)
+- **AI Pair Programmer**
+  - Suggests code completions in real-time
+  - Works inline with your existing workflow
+
+- **Language & Framework Support**
+  - Works across dozens of languages
+  - Understands popular frameworks
+
+- **Context-Aware Suggestions**
+  - Analyzes your codebase for relevant completions
+  - Adapts to your coding style
+
+- **Beyond Simple Completions**
+  - Generate entire functions and classes
+  - Comment-to-code transformations
+  - Test generation
+
+</v-clicks>
+
+---
+layout: image-right
+image: https://www.cursor.so/img/window-cursor.webp
+---
+
+# Cursor
+
+<v-clicks>
+
+- **Enhanced Code Editor**
+  - Built on VS Code foundation
+  - Optimized for AI-assisted coding
+
+- **Powerful Chat Interface**
+  - Discuss code and get guidance
+  - Project-wide context for better answers
+
+- **Smart Editing Features**
+  - Generate code from natural language
+  - Fix bugs with AI assistance
+  - Refactor with intelligent suggestions
+
+- **Contextual Understanding**
+  - Knows your project structure
+  - References existing patterns
+
+</v-clicks>
+
+---
+layout: image-left
+image: https://lovable.dev/images/og-image.png
+---
+
+# Lovable.dev
+
+<v-clicks>
+
+- **Full-Stack App Builder**
+  - Create complete applications with AI
+  - Modern React & Next.js focus
+
+- **Collaborative Development**
+  - Web-based interface
+  - Share and modify in real-time  
+
+- **Project Management**
+  - Manage scope and features
+  - Track progress and changes
+
+- **From Idea to Deployment**
+  - Rapid prototyping
+  - Production-ready outputs
+  - Deployment automation
+
+</v-clicks>
 
 ---
 
-# Diagrams
+# Additional Tools Worth Exploring
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
+<div class="grid grid-cols-3 gap-6 mt-8">
 
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
+<v-click>
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+  <div class="bg-blue-600 text-white p-3 text-center">
+    <h3 class="font-bold">Retool</h3>
   </div>
-</v-drag>
+  <div class="p-4 bg-white dark:bg-gray-800">
+    <p class="text-sm">Internal tool builder with drag-and-drop interface, custom JavaScript capability, and database connections.</p>
+  </div>
+</div>
+</v-click>
 
-<img v-drag="'square'" src="https://sli.dev/logo.png">
+<v-click>
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+  <div class="bg-purple-600 text-white p-3 text-center">
+    <h3 class="font-bold">Appsmith</h3>
+  </div>
+  <div class="p-4 bg-white dark:bg-gray-800">
+    <p class="text-sm">Open-source platform for building admin panels, dashboards, and internal tools with visual development.</p>
+  </div>
+</div>
+</v-click>
 
-###### Draggable Arrow
+<v-click>
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+  <div class="bg-green-600 text-white p-3 text-center">
+    <h3 class="font-bold">Mendix</h3>
+  </div>
+  <div class="p-4 bg-white dark:bg-gray-800">
+    <p class="text-sm">Enterprise low-code platform with visual modeling, collaboration tools, and one-click deployment.</p>
+  </div>
+</div>
+</v-click>
 
-```md
-<v-drag-arrow two-way />
-```
+<v-click>
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+  <div class="bg-red-600 text-white p-3 text-center">
+    <h3 class="font-bold">OutSystems</h3>
+  </div>
+  <div class="p-4 bg-white dark:bg-gray-800">
+    <p class="text-sm">Enterprise-grade low-code platform with AI-assisted development and comprehensive lifecycle management.</p>
+  </div>
+</div>
+</v-click>
 
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
+<v-click>
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+  <div class="bg-yellow-600 text-white p-3 text-center">
+    <h3 class="font-bold">Bubble</h3>
+  </div>
+  <div class="p-4 bg-white dark:bg-gray-800">
+    <p class="text-sm">Visual programming platform for creating web applications without code, with a focus on business logic.</p>
+  </div>
+</div>
+</v-click>
+
+<v-click>
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+  <div class="bg-indigo-600 text-white p-3 text-center">
+    <h3 class="font-bold">n8n</h3>
+  </div>
+  <div class="p-4 bg-white dark:bg-gray-800">
+    <p class="text-sm">Open-source workflow automation tool with a focus on extensibility and fair-code distribution.</p>
+  </div>
+</div>
+</v-click>
+
+</div>
 
 ---
-src: ./pages/imported-slides.md
-hide: false
+layout: two-cols
+class: px-2
 ---
 
+# Optimizing Our Workflows
+
+<v-clicks>
+
+- **Identifying Automation Opportunities**
+  - Repetitive coding tasks
+  - Standard integrations
+  - Report generation
+  - Data transformations
+
+- **Team Skill Development**
+  - AI prompt engineering
+  - Low-code platform training
+  - Cross-functional workshops
+
+- **Governance Framework**
+  - Decision matrix for tool selection
+  - Security and compliance standards
+  - Quality assurance processes
+
+</v-clicks>
+
+::right::
+
+<div class="ml-4">
+
+<v-click>
+<div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mt-4">
+  <h3 class="font-bold mb-2">Proposed Implementation Strategy</h3>
+  
+  <ol class="space-y-2 text-sm">
+    <li><strong>1. Assessment</strong>: Identify suitable projects for pilot implementation</li>
+    <li><strong>2. Training</strong>: Upskill team members on selected tools</li>
+    <li><strong>3. Pilot</strong>: Start with a small, non-critical project</li>
+    <li><strong>4. Evaluate</strong>: Measure success and gather feedback</li>
+    <li><strong>5. Expand</strong>: Scale successful approaches across teams</li>
+    <li><strong>6. Standardize</strong>: Document best practices and frameworks</li>
+  </ol>
+</div>
+</v-click>
+
+</div>
+
 ---
 
-# Monaco Editor
+# Practical Applications for Our Business
 
-Slidev provides built-in Monaco Editor support.
+<div class="grid grid-cols-2 gap-8 mt-6">
 
-Add `{monaco}` to the code block to turn it into an editor:
+<v-click>
+<div class="bg-blue-50 dark:bg-blue-900 p-6 rounded-lg">
+  <h3 class="font-bold text-xl text-blue-700 dark:text-blue-300">Internal Tools</h3>
+  <p class="mt-2">Custom dashboards, admin interfaces, and operational tools built 10x faster with low-code platforms.</p>
+  <div class="mt-4 text-sm font-medium text-blue-700 dark:text-blue-300">Example: Customer service dashboard that integrates multiple data sources</div>
+</div>
+</v-click>
 
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
+<v-click>
+<div class="bg-green-50 dark:bg-green-900 p-6 rounded-lg">
+  <h3 class="font-bold text-xl text-green-700 dark:text-green-300">Workflow Automation</h3>
+  <p class="mt-2">Automate business processes across systems without extensive custom code development.</p>
+  <div class="mt-4 text-sm font-medium text-green-700 dark:text-green-300">Example: Approval workflows with conditional routing and notifications</div>
+</div>
+</v-click>
 
-const arr = ref(emptyArray(10))
-```
+<v-click>
+<div class="bg-purple-50 dark:bg-purple-900 p-6 rounded-lg">
+  <h3 class="font-bold text-xl text-purple-700 dark:text-purple-300">Rapid Prototyping</h3>
+  <p class="mt-2">Test new product ideas and get customer feedback without investing in full development.</p>
+  <div class="mt-4 text-sm font-medium text-purple-700 dark:text-purple-300">Example: MVP of a new feature built in days instead of weeks</div>
+</div>
+</v-click>
 
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
+<v-click>
+<div class="bg-amber-50 dark:bg-amber-900 p-6 rounded-lg">
+  <h3 class="font-bold text-xl text-amber-700 dark:text-amber-300">Developer Productivity</h3>
+  <p class="mt-2">Accelerate core product development by automating routine coding tasks with AI assistance.</p>
+  <div class="mt-4 text-sm font-medium text-amber-700 dark:text-amber-300">Example: 40% faster feature development with AI code assistance</div>
+</div>
+</v-click>
 
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
+</div>
 
 ---
 layout: center
 class: text-center
 ---
 
-# Learn More
+# Next Steps
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+<div class="grid grid-cols-3 gap-8 mt-8">
 
-<PoweredBySlidev mt-10 />
+<v-click>
+<div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg flex flex-col items-center">
+  <div class="text-3xl mb-4">🧪</div>
+  <h3 class="font-bold mb-2">Pilot Project</h3>
+  <p class="text-sm">Select a suitable project for initial implementation</p>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg flex flex-col items-center">
+  <div class="text-3xl mb-4">🎓</div>
+  <h3 class="font-bold mb-2">Training</h3>
+  <p class="text-sm">Schedule workshops for teams to learn these new tools</p>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg flex flex-col items-center">
+  <div class="text-3xl mb-4">📊</div>
+  <h3 class="font-bold mb-2">Measure Impact</h3>
+  <p class="text-sm">Set up metrics to track productivity improvements</p>
+</div>
+</v-click>
+
+</div>
+
+<div class="mt-12">
+<v-click>
+  <a href="mailto:youremail@company.com" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+    Interested? Let's discuss your use case
+  </a>
+</v-click>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Brought to you by Red Leg Dev
+
+<div class="mt-8">
+  <a href="https://redleg.dev" target="_blank" class="text-xl font-bold text-blue-500 hover:text-blue-600 transition-colors">
+    redleg.dev
+  </a>
+</div>
+
+<div class="mt-4 text-sm opacity-75">
+  Empowering developers with innovative solutions
+</div>
+
+---
+layout: end
+---
+
+# Thank You
+
+Questions? 
