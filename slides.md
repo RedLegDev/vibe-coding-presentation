@@ -403,33 +403,33 @@ layout: default
 <div class="grid grid-cols-3 gap-4 mt-4">
 
 <v-click>
-<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden h-full">
   <div class="bg-blue-600 text-white p-2 text-center">
     <h3 class="font-bold text-sm">Retool</h3>
   </div>
-  <div class="p-3 bg-white dark:bg-gray-800">
+  <div class="p-3 bg-white dark:bg-gray-800 h-full">
     <p class="text-xs">Internal tool builder with drag-and-drop interface, custom JavaScript capability, and database connections.</p>
   </div>
 </div>
 </v-click>
 
 <v-click>
-<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden h-full">
   <div class="bg-purple-600 text-white p-2 text-center">
     <h3 class="font-bold text-sm">Microsoft Power Apps</h3>
   </div>
-  <div class="p-3 bg-white dark:bg-gray-800">
+  <div class="p-3 bg-white dark:bg-gray-800 h-full">
     <p class="text-xs">Low-code platform from Microsoft for building business apps with pre-built templates, AI capabilities, and seamless Microsoft 365 integration.</p>
   </div>
 </div>
 </v-click>
 
 <v-click>
-<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden h-full">
   <div class="bg-green-600 text-white p-2 text-center">
     <h3 class="font-bold text-sm">Airtable</h3>
   </div>
-  <div class="p-3 bg-white dark:bg-gray-800">
+  <div class="p-3 bg-white dark:bg-gray-800 h-full">
     <p class="text-xs">Spreadsheet-database hybrid that combines the simplicity of a spreadsheet with the power of a database for creating custom solutions.</p>
   </div>
 </div>
@@ -440,33 +440,33 @@ layout: default
 <div class="grid grid-cols-3 gap-4 mt-4">
 
 <v-click>
-<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden h-full">
   <div class="bg-red-600 text-white p-2 text-center">
     <h3 class="font-bold text-sm">Power Automate</h3>
   </div>
-  <div class="p-3 bg-white dark:bg-gray-800">
+  <div class="p-3 bg-white dark:bg-gray-800 h-full">
     <p class="text-xs">Microsoft's workflow automation tool that connects to hundreds of data sources with AI-powered assistance and templates.</p>
   </div>
 </div>
 </v-click>
 
 <v-click>
-<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden h-full">
   <div class="bg-yellow-600 text-white p-2 text-center">
     <h3 class="font-bold text-sm">Zapier</h3>
   </div>
-  <div class="p-3 bg-white dark:bg-gray-800">
+  <div class="p-3 bg-white dark:bg-gray-800 h-full">
     <p class="text-xs">Cloud-based integration platform that connects apps and automates workflows without requiring any code.</p>
   </div>
 </div>
 </v-click>
 
 <v-click>
-<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+<div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden h-full">
   <div class="bg-indigo-600 text-white p-2 text-center">
     <h3 class="font-bold text-sm">n8n</h3>
   </div>
-  <div class="p-3 bg-white dark:bg-gray-800">
+  <div class="p-3 bg-white dark:bg-gray-800 h-full">
     <p class="text-xs">Open-source workflow automation tool with a focus on extensibility and fair-code distribution.</p>
   </div>
 </div>
