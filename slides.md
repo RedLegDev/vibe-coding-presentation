@@ -207,32 +207,39 @@ layout: section
 Let's explore specific tools that can accelerate our development
 
 ---
-layout: image-left
-image: https://github.githubassets.com/images/modules/site/copilot/copilot-full.png
+layout: default
 ---
 
 # A. GitHub Copilot
 
-<div class="text-sm">
-<v-clicks>
+<div class="grid grid-cols-2 gap-4">
+  <div class="text-sm">
+  <v-clicks>
 
-- **For Coding & Refactoring**
-  - Real-time code suggestions
-  - Works in your existing IDE
+  - **For Coding & Refactoring**
+    - Real-time code suggestions
+    - Works in your existing IDE
 
-- **Language & Framework Support**
-  - Multi-language compatibility
-  - Framework-aware completions
+  - **Language & Framework Support**
+    - Multi-language compatibility
+    - Framework-aware completions
 
-- **Context-Aware Intelligence**
-  - Understands your codebase
-  - Adapts to your coding style
+  - **Context-Aware Intelligence**
+    - Understands your codebase
+    - Adapts to your coding style
 
-- **Advanced Features**
-  - Generates functions from comments
-  - Creates tests automatically
-
-</v-clicks>
+  </v-clicks>
+  </div>
+  
+  <div class="flex items-center justify-center">
+    <video 
+      src="https://github.githubassets.com/assets/hero-animation-lg-315ab307b8a1.mp4"
+      autoplay
+      loop
+      muted
+      class="rounded-lg shadow-xl w-full max-w-md"
+    ></video>
+  </div>
 </div>
 
 ---
