@@ -397,6 +397,64 @@ layout: default
 </div>
 
 ---
+transition: fade
+---
+
+# Key Advantage: Real, Readable, Ownable Code
+
+<div class="grid grid-cols-2 gap-8 mt-6">
+  <div class="bg-green-50 dark:bg-green-900 p-6 rounded-lg">
+    <h3 class="font-bold text-xl text-green-700 dark:text-green-300">Generative AI Code Tools</h3>
+    <ul class="mt-4 space-y-3">
+      <li class="flex items-start">
+        <span class="text-green-500 mr-2">✓</span>
+        <span><strong>Full Code Ownership</strong> — Generated code belongs to you, not locked to any platform</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-green-500 mr-2">✓</span>
+        <span><strong>Standard Languages & Frameworks</strong> — Uses industry standard technologies you already know</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-green-500 mr-2">✓</span>
+        <span><strong>Unlimited Customization</strong> — Modify any part of the generated code without restrictions</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-green-500 mr-2">✓</span>
+        <span><strong>Future-Proof</strong> — No vendor lock-in means easy migration and maintenance</span>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="bg-red-50 dark:bg-red-900 p-6 rounded-lg">
+    <h3 class="font-bold text-xl text-red-700 dark:text-red-300">Traditional Low/No-Code Tools</h3>
+    <ul class="mt-4 space-y-3">
+      <li class="flex items-start">
+        <span class="text-red-500 mr-2">✗</span>
+        <span><strong>Platform Lock-In</strong> — Solutions tied to specific vendor platforms</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-red-500 mr-2">✗</span>
+        <span><strong>Limited Customization</strong> — Restricted to what the platform allows</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-red-500 mr-2">✗</span>
+        <span><strong>Proprietary Systems</strong> — Often use custom visual languages or configurations</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-red-500 mr-2">✗</span>
+        <span><strong>Scaling Challenges</strong> — Hit walls when requirements grow beyond platform capabilities</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="mt-6 bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
+  <p class="font-medium text-center">
+    <span class="text-blue-700 dark:text-blue-300">The Bottom Line:</span> Generative AI tools give you the speed of no-code with the power and flexibility of custom development
+  </p>
+</div>
+
+---
 
 # V. Applying to Your Business
 
