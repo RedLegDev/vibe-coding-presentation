@@ -561,7 +561,7 @@ class: px-2
 </v-click>
 
 </div>
-</layout: two-cols>
+
 
 ---
 layout: end
