@@ -510,7 +510,7 @@ transition: fade
         <li><strong>Starter:</strong> $20/month</li>
         <li><strong>Pro:</strong> $50/month</li>
         <li><strong>Coming Soon:</strong> Team tier</li>
-        <li class="text-xs text-gray-600 dark:text-gray-400 mt-2">Includes deployment</li>
+        <li class="text-xs text-gray-600 dark:text-gray-400 mt-2">Includes hosting of apps</li>
       </ul>
     </div>
   </div>
@@ -554,7 +554,7 @@ transition: fade
 
 <v-click>
 <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
-  <h3 class="font-bold text-lg text-blue-700 dark:text-blue-300">A. Streamlining Your Processes</h3>
+  <h3 class="font-bold text-lg text-blue-700 dark:text-blue-300">A. Streamlining Our Processes</h3>
   <p class="mt-2 text-sm">Identifying specific processes in your workflow that could benefit from AI tools: requirements documentation, code reviews, testing, and deployment.</p>
   <div class="mt-2 text-xs font-medium text-blue-700 dark:text-blue-300">Example: Using AI to generate test cases based on user stories</div>
 </div>
@@ -574,7 +574,7 @@ transition: fade
 
 <v-click>
 <div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg">
-  <h3 class="font-bold text-lg text-purple-700 dark:text-purple-300">C. Upskilling Your Teams</h3>
+  <h3 class="font-bold text-lg text-purple-700 dark:text-purple-300">C. Upskilling Our Teams</h3>
   <p class="mt-2 text-sm">Developing a training program for product and development teams to effectively leverage AI tools and prompt engineering.</p>
   <div class="mt-2 text-xs font-medium text-purple-700 dark:text-purple-300">Example: Lunch & learn sessions on prompt crafting</div>
 </div>
