@@ -229,6 +229,9 @@ layout: default
     - Adapts to your coding style
 
   </v-clicks>
+  <div class="mt-2">
+    <a href="https://github.com/features/copilot" target="_blank" class="text-blue-500 hover:underline">github.com/features/copilot</a>
+  </div>
   </div>
   
   <div class="flex items-center justify-center">
@@ -267,6 +270,9 @@ layout: default
     - Autonomously solves complex tasks
 
   </v-clicks>
+  <div class="mt-2">
+    <a href="https://www.cursor.com/" target="_blank" class="text-blue-500 hover:underline">cursor.com</a>
+  </div>
   </div>
   
   <div class="flex items-center justify-center">
@@ -279,32 +285,41 @@ layout: default
 </div>
 
 ---
-layout: image-left
-image: https://lovable.dev/images/og-image.png
+layout: default
 ---
 
 # C. Lovable.dev
 
-<div class="text-sm">
-<v-clicks>
+<div class="grid grid-cols-2 gap-4">
+  <div class="text-sm">
+  <v-clicks>
 
-- **Full-Stack AI Development**
-  - Complete app generation
-  - React & Next.js focused
+  - **Idea to App in Seconds**
+    - Complete app generation
+    - React & Next.js focused
 
-- **Collaborative Platform**
-  - Web-based interface
-  - Real-time team editing
+  - **Superhuman Full Stack Engineer**
+    - Natural language to functioning code
+    - Handles complex requirements
 
-- **Project Management**
-  - Scope & feature tracking
-  - Progress visualization
+  - **End-to-End Solutions**
+    - Rapid prototyping
+    - Automatic deployment
+    - Ongoing maintenance
 
-- **End-to-End Solutions**
-  - Quick prototyping
-  - Deployment automation
-
-</v-clicks>
+  </v-clicks>
+  <div class="mt-2">
+    <a href="https://lovable.dev/" target="_blank" class="text-blue-500 hover:underline">lovable.dev</a>
+  </div>
+  </div>
+  
+  <div class="flex items-center justify-center">
+    <img 
+      src="/images/lovable-screenshot.png"
+      alt="Lovable.dev interface showing AI app generation"
+      class="rounded-lg shadow-xl w-full"
+    />
+  </div>
 </div>
 
 ---
