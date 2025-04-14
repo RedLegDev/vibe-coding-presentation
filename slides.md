@@ -88,44 +88,52 @@ class: px-2
 
 # II. Use Cases for Large Language Models
 
+<div class="text-sm">
 <v-clicks>
 
 - **A. Code Generation & Automation**
   - Writing boilerplate code
   - Completing functions from comments
   - Refactoring and optimization
-  - Test case generation
+  - Test generation
 
 - **B. Natural Language Processing**
   - Converting requirements to code
   - Documentation generation
-  - Bug descriptions to fixes
-  - API exploration through conversation
-
-- **C. Ideation & Problem-Solving**
-  - Architecture recommendations
-  - Design pattern suggestions
-  - Algorithm selection
-  - Technical debt identification
+  - Bug fixes from descriptions
+  - API exploration via conversation
 
 </v-clicks>
+</div>
 
 ::right::
 
 <div class="ml-4">
 
+<div class="text-sm">
+<v-clicks>
+
+- **C. Ideation & Problem-Solving**
+  - Architecture suggestions
+  - Design pattern recommendations
+  - Algorithm selection
+  - Technical debt identification
+
+</v-clicks>
+</div>
+
 <v-click>
-<div class="rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
+<div class="rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700 mt-4">
   <div class="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-4">
     <h3 class="font-bold">Real-World Impact</h3>
   </div>
   <div class="p-4 bg-white dark:bg-gray-800">
-    <ul class="space-y-2">
+    <ul class="space-y-2 text-sm">
       <li>🚀 40-80% faster code completion</li>
-      <li>👥 Junior developers performing at senior levels</li>
-      <li>💡 More innovative solutions to complex problems</li>
-      <li>📝 Dramatic reduction in documentation time</li>
-      <li>🔄 Quicker prototyping and iteration cycles</li>
+      <li>👥 Junior devs perform at senior levels</li>
+      <li>💡 More innovative solutions</li>
+      <li>📝 Reduced documentation time</li>
+      <li>🔄 Quicker iteration cycles</li>
     </ul>
   </div>
 </div>
