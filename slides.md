@@ -314,10 +314,10 @@ image: https://lovable.dev/images/og-image.png
 <v-click>
 <div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
   <div class="bg-green-600 text-white p-3 text-center">
-    <h3 class="font-bold">Mendix</h3>
+    <h3 class="font-bold">Appsmith</h3>
   </div>
   <div class="p-4 bg-white dark:bg-gray-800">
-    <p class="text-sm">Enterprise low-code platform with visual modeling, collaboration tools, and one-click deployment.</p>
+    <p class="text-sm">Open-source platform for building internal tools with visual development, API connections, and ready-to-use widgets.</p>
   </div>
 </div>
 </v-click>
@@ -325,10 +325,10 @@ image: https://lovable.dev/images/og-image.png
 <v-click>
 <div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
   <div class="bg-red-600 text-white p-3 text-center">
-    <h3 class="font-bold">OutSystems</h3>
+    <h3 class="font-bold">Power Automate</h3>
   </div>
   <div class="p-4 bg-white dark:bg-gray-800">
-    <p class="text-sm">Enterprise-grade low-code platform with AI-assisted development and comprehensive lifecycle management.</p>
+    <p class="text-sm">Microsoft's workflow automation tool that connects to hundreds of data sources with AI-powered assistance and ready-to-use templates.</p>
   </div>
 </div>
 </v-click>
@@ -336,10 +336,10 @@ image: https://lovable.dev/images/og-image.png
 <v-click>
 <div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
   <div class="bg-yellow-600 text-white p-3 text-center">
-    <h3 class="font-bold">Bubble</h3>
+    <h3 class="font-bold">Zapier</h3>
   </div>
   <div class="p-4 bg-white dark:bg-gray-800">
-    <p class="text-sm">Visual programming platform for creating web applications without code, with a focus on business logic.</p>
+    <p class="text-sm">Cloud-based integration platform that connects apps and automates workflows without requiring any code.</p>
   </div>
 </div>
 </v-click>
