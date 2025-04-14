@@ -572,7 +572,7 @@ layout: end
 Questions?
 
 ---
-layout: slide-up
+transition: slide-up
 ---
 
 # III. Leveraging LLMs for Product Management
