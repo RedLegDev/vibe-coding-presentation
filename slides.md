@@ -460,39 +460,43 @@ transition: fade
 
 ---
 
-# V. Applying to Your Business
+# V. Apply These Lessons to the Business
 
-<div class="grid grid-cols-2 gap-8 mt-6">
+<div class="grid grid-cols-2 gap-4 mt-4">
 
 <v-click>
-<div class="bg-blue-50 dark:bg-blue-900 p-6 rounded-lg">
-  <h3 class="font-bold text-xl text-blue-700 dark:text-blue-300">A. Streamlining Your Processes</h3>
-  <p class="mt-2">Identifying specific processes in your workflow that could benefit from AI tools: requirements documentation, code reviews, testing, and deployment.</p>
-  <div class="mt-4 text-sm font-medium text-blue-700 dark:text-blue-300">Example: Using AI to generate test cases based on user stories</div>
+<div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
+  <h3 class="font-bold text-lg text-blue-700 dark:text-blue-300">A. Streamlining Your Processes</h3>
+  <p class="mt-2 text-sm">Identifying specific processes in your workflow that could benefit from AI tools: requirements documentation, code reviews, testing, and deployment.</p>
+  <div class="mt-2 text-xs font-medium text-blue-700 dark:text-blue-300">Example: Using AI to generate test cases based on user stories</div>
 </div>
 </v-click>
 
 <v-click>
-<div class="bg-green-50 dark:bg-green-900 p-6 rounded-lg">
-  <h3 class="font-bold text-xl text-green-700 dark:text-green-300">B. Evaluating & Integrating Tools</h3>
-  <p class="mt-2">Creating a framework for evaluating AI tools based on your specific needs, security requirements, and integration capabilities.</p>
-  <div class="mt-4 text-sm font-medium text-green-700 dark:text-green-300">Example: Pilot of GitHub Copilot for a sprint cycle</div>
+<div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
+  <h3 class="font-bold text-lg text-green-700 dark:text-green-300">B. Evaluating & Integrating Tools</h3>
+  <p class="mt-2 text-sm">Creating a framework for evaluating AI tools based on your specific needs, security requirements, and integration capabilities.</p>
+  <div class="mt-2 text-xs font-medium text-green-700 dark:text-green-300">Example: Pilot of GitHub Copilot for a sprint cycle</div>
+</div>
+</v-click>
+
+</div>
+
+<div class="grid grid-cols-2 gap-4 mt-4">
+
+<v-click>
+<div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg">
+  <h3 class="font-bold text-lg text-purple-700 dark:text-purple-300">C. Upskilling Your Teams</h3>
+  <p class="mt-2 text-sm">Developing a training program for product and development teams to effectively leverage AI tools and prompt engineering.</p>
+  <div class="mt-2 text-xs font-medium text-purple-700 dark:text-purple-300">Example: Lunch & learn sessions on prompt crafting</div>
 </div>
 </v-click>
 
 <v-click>
-<div class="bg-purple-50 dark:bg-purple-900 p-6 rounded-lg">
-  <h3 class="font-bold text-xl text-purple-700 dark:text-purple-300">C. Upskilling Your Teams</h3>
-  <p class="mt-2">Developing a training program for product and development teams to effectively leverage AI tools and prompt engineering.</p>
-  <div class="mt-4 text-sm font-medium text-purple-700 dark:text-purple-300">Example: Lunch & learn sessions on prompt crafting</div>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-amber-50 dark:bg-amber-900 p-6 rounded-lg">
-  <h3 class="font-bold text-xl text-amber-700 dark:text-amber-300">D. Measuring Impact</h3>
-  <p class="mt-2">Establishing KPIs to measure the effectiveness of AI tools on development velocity, quality, and team satisfaction.</p>
-  <div class="mt-4 text-sm font-medium text-amber-700 dark:text-amber-300">Example: Compare sprint velocity before and after implementation</div>
+<div class="bg-amber-50 dark:bg-amber-900 p-4 rounded-lg">
+  <h3 class="font-bold text-lg text-amber-700 dark:text-amber-300">D. Measuring Impact</h3>
+  <p class="mt-2 text-sm">Establishing KPIs to measure the effectiveness of AI tools on development velocity, quality, and team satisfaction.</p>
+  <div class="mt-2 text-xs font-medium text-amber-700 dark:text-amber-300">Example: Compare sprint velocity before and after implementation</div>
 </div>
 </v-click>
 
