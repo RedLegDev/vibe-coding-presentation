@@ -684,6 +684,41 @@ transition: fade
 </div>
 
 ---
+transition: fade
+---
+
+# Industry Perspective: Shopify's CEO on AI Adoption
+
+<div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
+  <p class="italic text-sm">"Using AI effectively is now a fundamental expectation of everyone at Shopify... Frankly, I don't think it's feasible to opt out of learning the skill of applying AI in your craft."</p>
+  <p class="text-right text-xs">— Tobi Lütke, CEO of Shopify</p>
+</div>
+
+<div class="grid grid-cols-2 gap-4">  
+  <div>
+    <h3 class="font-bold text-base mb-2">Implementation Strategy</h3>
+    <ul class="text-sm space-y-2">
+      <li class="flex items-start">
+        <span class="text-blue-600 mr-2">•</span>
+        <span>AI exploration dominates the prototype phase</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-blue-600 mr-2">•</span>
+        <span>Self-directed learning with knowledge sharing</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-blue-600 mr-2">•</span>
+        <span>Provide access to cutting-edge AI tools</span>
+      </li>
+      <li class="flex items-start">
+        <span class="text-blue-600 mr-2">•</span>
+        <span>Teams must demonstrate why AI can't solve before requesting more resources</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+---
 layout: center
 class: text-center
 ---
