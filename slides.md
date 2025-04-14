@@ -495,7 +495,7 @@ transition: fade
       <ul class="space-y-1 text-sm">
         <li><strong>Free Tier:</strong> Core features</li>
         <li><strong>Pro:</strong> $20/user/month</li>
-        <li><strong>Team:</strong> Contact for pricing</li>
+        <li><strong>Business:</strong> $40/user/month</li>
         <li class="text-xs text-gray-600 dark:text-gray-400 mt-2">Pro: advanced models</li>
       </ul>
     </div>
@@ -507,33 +507,42 @@ transition: fade
     </div>
     <div class="p-3">
       <ul class="space-y-1 text-sm">
-        <li><strong>Free Tier:</strong> Limited projects</li>
-        <li><strong>Pro:</strong> $29/month</li>
-        <li><strong>Team:</strong> $49/user/month</li>
+        <li><strong>Starter:</strong> $20/month</li>
+        <li><strong>Pro:</strong> $50/month</li>
+        <li><strong>Coming Soon:</strong> Team tier</li>
         <li class="text-xs text-gray-600 dark:text-gray-400 mt-2">Includes deployment</li>
       </ul>
     </div>
   </div>
 </div>
 
-<div class="grid grid-cols-2 gap-4 mt-4">
-  <div class="bg-blue-50 dark:bg-blue-900 p-3 rounded-lg">
-    <h3 class="text-sm font-bold text-blue-700 dark:text-blue-300">Team Investment (5 developers)</h3>
-    <ul class="text-xs mt-1 space-y-1">
-      <li>GitHub Copilot Business: <strong>$1,140/year</strong></li>
-      <li>Cursor Pro: <strong>$1,200/year</strong></li>
-      <li>Lovable.dev Team: <strong>$2,940/year</strong></li>
-    </ul>
-  </div>
-
-  <div class="bg-green-50 dark:bg-green-900 p-3 rounded-lg">
-    <h3 class="text-sm font-bold text-green-700 dark:text-green-300">ROI Considerations</h3>
-    <ul class="text-xs mt-1 space-y-1">
-      <li><strong>Time Savings:</strong> 20-30% productivity increase</li>
-      <li><strong>Quality:</strong> Improved code, fewer bugs</li>
-      <li><strong>Onboarding:</strong> Faster ramp-up for new devs</li>
-      <li><strong>Innovation:</strong> More time for complex problems</li>
-    </ul>
+<div class="mt-4 bg-green-50 dark:bg-green-900 p-4 rounded-lg">
+  <h3 class="font-bold text-green-700 dark:text-green-300">Return on Investment Considerations</h3>
+  <div class="grid grid-cols-2 gap-4 mt-2">
+    <div>
+      <ul class="text-sm space-y-2">
+        <li class="flex items-start">
+          <span class="text-green-500 mr-2">✓</span>
+          <span><strong>Developer Productivity</strong> — 20-30% increase in output and velocity</span>
+        </li>
+        <li class="flex items-start">
+          <span class="text-green-500 mr-2">✓</span>
+          <span><strong>Code Quality</strong> — Improved consistency and fewer bugs</span>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul class="text-sm space-y-2">
+        <li class="flex items-start">
+          <span class="text-green-500 mr-2">✓</span>
+          <span><strong>Onboarding</strong> — Faster ramp-up for new team members</span>
+        </li>
+        <li class="flex items-start">
+          <span class="text-green-500 mr-2">✓</span>
+          <span><strong>Innovation</strong> — More time for solving complex business problems</span>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 
