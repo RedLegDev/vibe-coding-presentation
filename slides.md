@@ -40,7 +40,7 @@ image: https://source.unsplash.com/Wpnoqo2plFA/1920x1080
 - Use Cases for Large Language Models (LLMs)
 - Leveraging LLMs for Product Management
 - Hands-on Demos and Workflows
-- Applying to InContext Solutions
+- Applying to Your Business
 
 </v-clicks>
 
@@ -361,14 +361,14 @@ image: https://lovable.dev/images/og-image.png
 
 ---
 
-# V. Applying to InContext Solutions
+# V. Applying to Your Business
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
 <v-click>
 <div class="bg-blue-50 dark:bg-blue-900 p-6 rounded-lg">
-  <h3 class="font-bold text-xl text-blue-700 dark:text-blue-300">A. Streamlining Our Processes</h3>
-  <p class="mt-2">Identifying specific processes in our workflow that could benefit from AI tools: requirements documentation, code reviews, testing, and deployment.</p>
+  <h3 class="font-bold text-xl text-blue-700 dark:text-blue-300">A. Streamlining Your Processes</h3>
+  <p class="mt-2">Identifying specific processes in your workflow that could benefit from AI tools: requirements documentation, code reviews, testing, and deployment.</p>
   <div class="mt-4 text-sm font-medium text-blue-700 dark:text-blue-300">Example: Using AI to generate test cases based on user stories</div>
 </div>
 </v-click>
@@ -376,14 +376,14 @@ image: https://lovable.dev/images/og-image.png
 <v-click>
 <div class="bg-green-50 dark:bg-green-900 p-6 rounded-lg">
   <h3 class="font-bold text-xl text-green-700 dark:text-green-300">B. Evaluating & Integrating Tools</h3>
-  <p class="mt-2">Creating a framework for evaluating AI tools based on our specific needs, security requirements, and integration capabilities.</p>
+  <p class="mt-2">Creating a framework for evaluating AI tools based on your specific needs, security requirements, and integration capabilities.</p>
   <div class="mt-4 text-sm font-medium text-green-700 dark:text-green-300">Example: Pilot of GitHub Copilot for a sprint cycle</div>
 </div>
 </v-click>
 
 <v-click>
 <div class="bg-purple-50 dark:bg-purple-900 p-6 rounded-lg">
-  <h3 class="font-bold text-xl text-purple-700 dark:text-purple-300">C. Upskilling Our Teams</h3>
+  <h3 class="font-bold text-xl text-purple-700 dark:text-purple-300">C. Upskilling Your Teams</h3>
   <p class="mt-2">Developing a training program for product and development teams to effectively leverage AI tools and prompt engineering.</p>
   <div class="mt-4 text-sm font-medium text-purple-700 dark:text-purple-300">Example: Lunch & learn sessions on prompt crafting</div>
 </div>
@@ -392,7 +392,7 @@ image: https://lovable.dev/images/og-image.png
 <v-click>
 <div class="bg-amber-50 dark:bg-amber-900 p-6 rounded-lg">
   <h3 class="font-bold text-xl text-amber-700 dark:text-amber-300">D. Measuring Impact</h3>
-  <p class="mt-2">Establishing KPIs to measure the effectiveness of AI tools on our development velocity, quality, and team satisfaction.</p>
+  <p class="mt-2">Establishing KPIs to measure the effectiveness of AI tools on development velocity, quality, and team satisfaction.</p>
   <div class="mt-4 text-sm font-medium text-amber-700 dark:text-amber-300">Example: Compare sprint velocity before and after implementation</div>
 </div>
 </v-click>
