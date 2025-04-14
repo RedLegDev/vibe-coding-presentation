@@ -201,84 +201,87 @@ layout: image-left
 image: https://github.githubassets.com/images/modules/site/copilot/copilot-full.png
 ---
 
-# GitHub Copilot
+# A. GitHub Copilot
 
+<div class="text-sm">
 <v-clicks>
 
-- **AI Pair Programmer**
-  - Suggests code completions in real-time
-  - Works inline with your existing workflow
+- **For Coding & Refactoring**
+  - Real-time code suggestions
+  - Works in your existing IDE
 
 - **Language & Framework Support**
-  - Works across dozens of languages
-  - Understands popular frameworks
+  - Multi-language compatibility
+  - Framework-aware completions
 
-- **Context-Aware Suggestions**
-  - Analyzes your codebase for relevant completions
+- **Context-Aware Intelligence**
+  - Understands your codebase
   - Adapts to your coding style
 
-- **Beyond Simple Completions**
-  - Generate entire functions and classes
-  - Comment-to-code transformations
-  - Test generation
+- **Advanced Features**
+  - Generates functions from comments
+  - Creates tests automatically
 
 </v-clicks>
+</div>
 
 ---
 layout: image-right
 image: https://www.cursor.so/img/window-cursor.webp
 ---
 
-# Cursor
+# B. Cursor
 
+<div class="text-sm">
 <v-clicks>
 
-- **Enhanced Code Editor**
-  - Built on VS Code foundation
-  - Optimized for AI-assisted coding
+- **AI-Enhanced Editor**
+  - Built on VS Code platform
+  - Optimized for AI assistance
 
-- **Powerful Chat Interface**
-  - Discuss code and get guidance
-  - Project-wide context for better answers
+- **Intelligent Interface**
+  - Project-aware chat
+  - Contextual guidance
 
 - **Smart Editing Features**
-  - Generate code from natural language
-  - Fix bugs with AI assistance
-  - Refactor with intelligent suggestions
+  - Natural language to code
+  - Automated bug fixing
 
-- **Contextual Understanding**
-  - Knows your project structure
-  - References existing patterns
+- **Low-Code Development**
+  - Rapid UI prototyping
+  - Conversation-driven building
 
 </v-clicks>
+</div>
 
 ---
 layout: image-left
 image: https://lovable.dev/images/og-image.png
 ---
 
-# Lovable.dev
+# C. Lovable.dev
 
+<div class="text-sm">
 <v-clicks>
 
-- **Full-Stack App Builder**
-  - Create complete applications with AI
-  - Modern React & Next.js focus
+- **Full-Stack AI Development**
+  - Complete app generation
+  - React & Next.js focused
 
-- **Collaborative Development**
+- **Collaborative Platform**
   - Web-based interface
-  - Share and modify in real-time  
+  - Real-time team editing
 
 - **Project Management**
-  - Manage scope and features
-  - Track progress and changes
+  - Scope & feature tracking
+  - Progress visualization
 
-- **From Idea to Deployment**
-  - Rapid prototyping
-  - Production-ready outputs
+- **End-to-End Solutions**
+  - Quick prototyping
   - Deployment automation
 
 </v-clicks>
+</div>
 
 ---
 
@@ -671,26 +674,27 @@ image: https://www.cursor.so/img/window-cursor.webp
 
 # B. Cursor
 
+<div class="text-sm">
 <v-clicks>
 
-- **AI-Enhanced Code Editor**
-  - Built on VS Code foundation
-  - Optimized for AI-assisted coding
+- **AI-Enhanced Editor**
+  - Built on VS Code platform
+  - Optimized for AI assistance
 
-- **Powerful Chat Interface**
-  - Discuss code and get guidance
-  - Project-wide context for better answers
+- **Intelligent Interface**
+  - Project-aware chat
+  - Contextual guidance
 
 - **Smart Editing Features**
-  - Generate code from natural language
-  - Fix bugs with AI assistance
-  - Refactor with intelligent suggestions
+  - Natural language to code
+  - Automated bug fixing
 
-- **Low-Code Application Development**
-  - Rapidly prototype UI components
-  - Build features through conversation
+- **Low-Code Development**
+  - Rapid UI prototyping
+  - Conversation-driven building
 
 </v-clicks>
+</div>
 
 ---
 layout: image-left
@@ -699,26 +703,27 @@ image: https://lovable.dev/images/og-image.png
 
 # C. Lovable.dev
 
+<div class="text-sm">
 <v-clicks>
 
-- **Full-Stack AI-Assisted Projects**
-  - Create complete applications with AI
-  - Modern React & Next.js focus
+- **Full-Stack AI Development**
+  - Complete app generation
+  - React & Next.js focused
 
-- **Collaborative Development**
+- **Collaborative Platform**
   - Web-based interface
-  - Share and modify in real-time  
+  - Real-time team editing
 
 - **Project Management**
-  - Manage scope and features
-  - Track progress and changes
+  - Scope & feature tracking
+  - Progress visualization
 
-- **From Idea to Deployment**
-  - Rapid prototyping
-  - Production-ready outputs
+- **End-to-End Solutions**
+  - Quick prototyping
   - Deployment automation
 
 </v-clicks>
+</div>
 
 ---
 
