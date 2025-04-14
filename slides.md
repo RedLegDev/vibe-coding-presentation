@@ -723,49 +723,6 @@ layout: center
 class: text-center
 ---
 
-# Next Steps
-
-<div class="grid grid-cols-3 gap-8 mt-8">
-
-<v-click>
-<div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg flex flex-col items-center">
-  <div class="text-3xl mb-4">🧪</div>
-  <h3 class="font-bold mb-2">Pilot Project</h3>
-  <p class="text-sm">Select a feature or sprint to implement AI tools</p>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg flex flex-col items-center">
-  <div class="text-3xl mb-4">🎓</div>
-  <h3 class="font-bold mb-2">Training</h3>
-  <p class="text-sm">Schedule hands-on workshops for the team</p>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg flex flex-col items-center">
-  <div class="text-3xl mb-4">📊</div>
-  <h3 class="font-bold mb-2">Measure Impact</h3>
-  <p class="text-sm">Track key metrics to evaluate effectiveness</p>
-</div>
-</v-click>
-
-</div>
-
-<div class="mt-12">
-<v-click>
-  <a href="mailto:youremail@company.com" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-    Questions? Let's discuss further after the session
-  </a>
-</v-click>
-</div>
-
----
-layout: center
-class: text-center
----
-
 # Brought to you by Red Leg Dev
 
 <div class="mt-8">
