@@ -292,14 +292,23 @@ class: text-center
 
 <div class="text-xl mb-10">Let's see GitHub Copilot in action</div>
 
-<div class="flex justify-center">
+<div class="grid grid-cols-2 gap-8 items-center">
   <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg max-w-lg text-left">
     <h3 class="font-bold mb-2">Demo Focus Areas:</h3>
     <ul class="space-y-2">
       <li>• Real-time code suggestions</li>
       <li>• Function completion from comments</li>
       <li>• Context-aware completions</li>
+      <li>• @azure integration example</li>
     </ul>
+  </div>
+  
+  <div class="flex items-center justify-center">
+    <img 
+      src="/images/copilot-azure.png"
+      alt="GitHub Copilot interacting with Azure extension"
+      class="rounded-lg shadow-xl w-full max-w-sm"
+    />
   </div>
 </div>
 
