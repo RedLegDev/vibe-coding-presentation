@@ -102,12 +102,35 @@ Building a presentation about AI development tools is like trying to hit a movin
 transition: fade-out
 ---
 
+# Industry Perspective: Shopify's CEO on AI Adoption
+
+<div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
+  <p class="italic text-sm">"Using AI effectively is now a fundamental expectation of everyone at Shopify... Frankly, I don't think it's feasible to opt out of learning the skill of applying AI in your craft."</p>
+  <p class="text-right text-xs">— Tobi Lütke, CEO of Shopify</p>
+</div>
+
+<div class="grid grid-cols-1 gap-4">  
+  <div>
+    <h3 class="font-bold text-base mb-2">Implementation Strategy</h3>
+    <ul class="text-sm space-y-2">
+      <li>AI exploration dominates the prototype phase</li>
+      <li>Self-directed learning with knowledge sharing</li>
+      <li>Provide access to cutting-edge AI tools</li>
+      <li>Teams must demonstrate why AI can't solve before requesting more resources</li>
+    </ul>
+  </div>
+</div>
+
+---
+transition: fade
+---
+
 # Industry Perspective: The Rise of AI-First Development
 
 <div class="flex flex-col items-center mb-6">
   <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg w-3/4 text-center">
     <p class="italic text-sm">"It's not AI's job to prove it's better than you. It's your job to get better using AI."</p>
-    <p class="text-right text-xs mt-2">— Steve Yegge, Sourcegraph</p>
+    <p class="text-right text-xs mt-2">— Steve Yegge, <a href="https://sourcegraph.com/blog/revenge-of-the-junior-developer" target="_blank" class="text-blue-500 hover:underline">Sourcegraph</a></p>
   </div>
 </div>
 
@@ -131,6 +154,10 @@ transition: fade-out
       <li>Resistance to AI = career risk</li>
     </ul>
   </div>
+</div>
+
+<div class="absolute bottom-4 right-4 text-xs text-gray-500">
+  <a href="https://sourcegraph.com/blog/revenge-of-the-junior-developer" target="_blank" class="hover:underline">Read the full article →</a>
 </div>
 
 ---
@@ -162,31 +189,6 @@ transition: fade-out
 transition: fade
 ---
 
-# Industry Perspective: Shopify's CEO on AI Adoption
-
-<div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
-  <p class="italic text-sm">"Using AI effectively is now a fundamental expectation of everyone at Shopify... Frankly, I don't think it's feasible to opt out of learning the skill of applying AI in your craft."</p>
-  <p class="text-right text-xs">— Tobi Lütke, CEO of Shopify</p>
-</div>
-
-<div class="grid grid-cols-1 gap-4">  
-  <div>
-    <h3 class="font-bold text-base mb-2">Implementation Strategy</h3>
-    <ul class="text-sm space-y-2">
-      <li>AI exploration dominates the prototype phase</li>
-      <li>Self-directed learning with knowledge sharing</li>
-      <li>Provide access to cutting-edge AI tools</li>
-      <li>Teams must demonstrate why AI can't solve before requesting more resources</li>
-    </ul>
-  </div>
-</div>
-
----
-transition: fade-out
-layout: two-cols
-class: px-2
----
-
 # Use Cases for Large Language Models
 
 <div class="text-sm">
@@ -206,8 +208,6 @@ class: px-2
 
 </v-clicks>
 </div>
-
-::right::
 
 <div class="ml-4">
 
