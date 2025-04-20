@@ -102,6 +102,63 @@ Building a presentation about AI development tools is like trying to hit a movin
 transition: fade-out
 ---
 
+# Leveraging LLMs for Product Management
+
+<div class="grid grid-cols-3 gap-4 mt-6">
+
+<v-click>
+<div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
+  <h3 class="font-bold text-blue-700 dark:text-blue-300">Requirement Gathering</h3>
+  <ul class="text-sm mt-2">
+    <li>Generating detailed requirements docs</li>
+    <li>Converting stakeholder interviews to specs</li>
+    <li>Surfacing edge cases and considerations</li>
+    <li>Creating acceptance criteria</li>
+  </ul>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
+  <h3 class="font-bold text-green-700 dark:text-green-300">User Story Creation</h3>
+  <ul class="text-sm mt-2">
+    <li>Crafting user stories from objectives</li>
+    <li>Generating acceptance criteria</li>
+    <li>Refining and prioritizing the backlog</li>
+    <li>Estimating complexity and effort</li>
+  </ul>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg">
+  <h3 class="font-bold text-purple-700 dark:text-purple-300">Product Roadmapping</h3>
+  <ul class="text-sm mt-2">
+    <li>Suggesting roadmap milestones</li>
+    <li>Identifying dependencies</li>
+    <li>Visualizing the product timeline</li>
+    <li>Aligning features with strategic goals</li>
+  </ul>
+</div>
+</v-click>
+
+</div>
+
+<div class="mt-8">
+<v-click>
+<div class="bg-amber-50 dark:bg-amber-900 p-4 rounded-lg flex items-center">
+  <div class="text-4xl mr-4">💡</div>
+  <div>
+    <p class="font-medium">LLMs enable product teams to focus on strategic decisions while automating the creation and management of product artifacts.</p>
+  </div>
+</div>
+</v-click>
+</div>
+
+---
+transition: fade-out
+---
+
 # The Rise of AI Development Tools
 
 <div grid="~ cols-2 gap-4">
@@ -198,63 +255,6 @@ class: px-2
 
 ---
 transition: slide-up
----
-
-# Leveraging LLMs for Product Management
-
-<div class="grid grid-cols-3 gap-4 mt-6">
-
-<v-click>
-<div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
-  <h3 class="font-bold text-blue-700 dark:text-blue-300">A. Requirement Gathering</h3>
-  <ul class="text-sm mt-2">
-    <li>Generating detailed requirements docs</li>
-    <li>Converting stakeholder interviews to specs</li>
-    <li>Surfacing edge cases and considerations</li>
-    <li>Creating acceptance criteria</li>
-  </ul>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
-  <h3 class="font-bold text-green-700 dark:text-green-300">B. User Story Creation</h3>
-  <ul class="text-sm mt-2">
-    <li>Crafting user stories from objectives</li>
-    <li>Generating acceptance criteria</li>
-    <li>Refining and prioritizing the backlog</li>
-    <li>Estimating complexity and effort</li>
-  </ul>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg">
-  <h3 class="font-bold text-purple-700 dark:text-purple-300">C. Product Roadmapping</h3>
-  <ul class="text-sm mt-2">
-    <li>Suggesting roadmap milestones</li>
-    <li>Identifying dependencies</li>
-    <li>Visualizing the product timeline</li>
-    <li>Aligning features with strategic goals</li>
-  </ul>
-</div>
-</v-click>
-
-</div>
-
-<div class="mt-8">
-<v-click>
-<div class="bg-amber-50 dark:bg-amber-900 p-4 rounded-lg flex items-center">
-  <div class="text-4xl mr-4">💡</div>
-  <div>
-    <p class="font-medium">LLMs enable product teams to focus on strategic decisions while automating the creation and management of product artifacts.</p>
-  </div>
-</div>
-</v-click>
-</div>
-
----
-layout: section
 ---
 
 # Hands-on Demos and Workflows
