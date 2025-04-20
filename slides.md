@@ -102,6 +102,41 @@ Building a presentation about AI development tools is like trying to hit a movin
 transition: fade-out
 ---
 
+# Industry Perspective: The Rise of AI-First Development
+
+<div class="flex flex-col items-center mb-6">
+  <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg w-3/4 text-center">
+    <p class="italic text-sm">"It's not AI's job to prove it's better than you. It's your job to get better using AI."</p>
+    <p class="text-right text-xs mt-2">— Steve Yegge, Sourcegraph</p>
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-8 px-8">
+  <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
+    <h3 class="font-bold text-base mb-2 text-center text-blue-700 dark:text-blue-300">Key Observations</h3>
+    <ul class="text-sm space-y-2">
+      <li>Junior developers leading AI adoption</li>
+      <li>Rapid shift from completions to agents</li>
+      <li>Traditional coding becoming obsolete</li>
+      <li>AI competency becoming mandatory</li>
+    </ul>
+  </div>
+  
+  <div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
+    <h3 class="font-bold text-base mb-2 text-center text-green-700 dark:text-green-300">Future Implications</h3>
+    <ul class="text-sm space-y-2">
+      <li>Engineers will focus on agent management</li>
+      <li>Vast productivity gains expected</li>
+      <li>More ambitious software projects</li>
+      <li>Resistance to AI = career risk</li>
+    </ul>
+  </div>
+</div>
+
+---
+transition: fade-out
+---
+
 <div class="flex justify-center mb-2">
   <img src="/images/ai-coding-evolution.avif" alt="Evolution of AI Coding Strategies graph showing progression from 2022 to 2027" class="w-3/5" />
 </div>
@@ -124,61 +159,10 @@ transition: fade-out
 </div>
 
 ---
-transition: fade-out
+transition: fade
 ---
 
-# Leveraging LLMs for Product Management
-
-<div class="grid grid-cols-3 gap-4 mt-6">
-
-<v-click>
-<div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
-  <h3 class="font-bold text-blue-700 dark:text-blue-300">Requirement Gathering</h3>
-  <ul class="text-sm mt-2">
-    <li>Generating detailed requirements docs</li>
-    <li>Converting stakeholder interviews to specs</li>
-    <li>Surfacing edge cases and considerations</li>
-    <li>Creating acceptance criteria</li>
-  </ul>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
-  <h3 class="font-bold text-green-700 dark:text-green-300">User Story Creation</h3>
-  <ul class="text-sm mt-2">
-    <li>Crafting user stories from objectives</li>
-    <li>Generating acceptance criteria</li>
-    <li>Refining and prioritizing the backlog</li>
-    <li>Estimating complexity and effort</li>
-  </ul>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg">
-  <h3 class="font-bold text-purple-700 dark:text-purple-300">Product Roadmapping</h3>
-  <ul class="text-sm mt-2">
-    <li>Suggesting roadmap milestones</li>
-    <li>Identifying dependencies</li>
-    <li>Visualizing the product timeline</li>
-    <li>Aligning features with strategic goals</li>
-  </ul>
-</div>
-</v-click>
-
-</div>
-
-<div class="mt-8">
-<v-click>
-<div class="bg-amber-50 dark:bg-amber-900 p-4 rounded-lg flex items-center">
-  <div class="text-4xl mr-4">💡</div>
-  <div>
-    <p class="font-medium">LLMs enable product teams to focus on strategic decisions while automating the creation and management of product artifacts.</p>
-  </div>
-</div>
-</v-click>
-</div>
+# Industry Perspective: Shopify's CEO on AI Adoption
 
 ---
 transition: fade-out
@@ -755,64 +739,6 @@ transition: fade
 </div>
 </v-click>
 
-</div>
-
----
-transition: fade
----
-
-# Industry Perspective: Shopify's CEO on AI Adoption
-
-<div class="bg-green-50 dark:bg-green-800 p-4 rounded-lg mb-4">
-  <p class="italic text-sm">"Using AI effectively is now a fundamental expectation of everyone at Shopify... Frankly, I don't think it's feasible to opt out of learning the skill of applying AI in your craft."</p>
-  <p class="text-right text-xs">— Tobi Lütke, CEO of Shopify</p>
-</div>
-
-<div class="grid grid-cols-1 gap-4">  
-  <div>
-    <h3 class="font-bold text-base mb-2">Implementation Strategy</h3>
-    <ul class="text-sm space-y-2">
-      <li>AI exploration dominates the prototype phase</li>
-      <li>Self-directed learning with knowledge sharing</li>
-      <li>Provide access to cutting-edge AI tools</li>
-      <li>Teams must demonstrate why AI can't solve before requesting more resources</li>
-    </ul>
-  </div>
-</div>
-
----
-transition: fade
----
-
-# Industry Perspective: The Rise of AI-First Development
-
-<div class="flex flex-col items-center mb-6">
-  <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg w-3/4 text-center">
-    <p class="italic text-sm">"It's not AI's job to prove it's better than you. It's your job to get better using AI."</p>
-    <p class="text-right text-xs mt-2">— Steve Yegge, Sourcegraph</p>
-  </div>
-</div>
-
-<div class="grid grid-cols-2 gap-8 px-8">
-  <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
-    <h3 class="font-bold text-base mb-2 text-center text-blue-700 dark:text-blue-300">Key Observations</h3>
-    <ul class="text-sm space-y-2">
-      <li>Junior developers leading AI adoption</li>
-      <li>Rapid shift from completions to agents</li>
-      <li>Traditional coding becoming obsolete</li>
-      <li>AI competency becoming mandatory</li>
-    </ul>
-  </div>
-  
-  <div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
-    <h3 class="font-bold text-base mb-2 text-center text-green-700 dark:text-green-300">Future Implications</h3>
-    <ul class="text-sm space-y-2">
-      <li>Engineers will focus on agent management</li>
-      <li>Vast productivity gains expected</li>
-      <li>More ambitious software projects</li>
-      <li>Resistance to AI = career risk</li>
-    </ul>
-  </div>
 </div>
 
 ---
