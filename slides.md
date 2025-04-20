@@ -36,7 +36,7 @@ image: https://images.unsplash.com/photo-1568716353609-12ddc5c67f04?q=80&w=1974&
 
 # Today's Agenda
 
-<div class="text-lg">
+<div class="text-lg mb-4">
 <v-clicks>
 
 - The Rapidly Evolving Landscape
@@ -48,7 +48,7 @@ image: https://images.unsplash.com/photo-1568716353609-12ddc5c67f04?q=80&w=1974&
 </v-clicks>
 </div>
 
-<div class="mt-8 text-xl">
+<div class="mt-4 text-xl">
   <v-click>
     <p class="font-medium">Let's explore how AI is transforming development workflows!</p>
   </v-click>
@@ -157,6 +157,8 @@ transition: fade-out
 
 ---
 transition: fade-out
+layout: two-cols
+class: px-2
 ---
 
 # Use Cases for Large Language Models
