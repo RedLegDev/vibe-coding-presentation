@@ -69,9 +69,9 @@ Building a presentation about AI development tools is like trying to hit a movin
   <div>
     <h3 class="font-bold text-base mb-2">Recent Developments</h3>
     <ul class="text-sm space-y-1">
-      <li>• VSCode & Visual Studio adding agent features</li>
-      <li>• New AI models with improved coding abilities</li>
-      <li>• Tool integration evolving daily via MCP</li>
+      <li>VSCode & Visual Studio adding agent features</li>
+      <li>New AI models with improved coding abilities</li>
+      <li>Tool integration evolving daily via MCP</li>
     </ul>
   </div>
   
@@ -296,10 +296,10 @@ class: text-center
   <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg max-w-lg text-left">
     <h3 class="font-bold mb-2">Demo Focus Areas:</h3>
     <ul class="space-y-2">
-      <li>• Real-time code suggestions</li>
-      <li>• Function completion from comments</li>
-      <li>• Context-aware completions</li>
-      <li>• @azure integration example</li>
+      <li>Real-time code suggestions</li>
+      <li>Function completion from comments</li>
+      <li>Context-aware completions</li>
+      <li>@azure integration example</li>
     </ul>
   </div>
   
@@ -364,9 +364,9 @@ class: text-center
   <div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg max-w-lg text-left">
     <h3 class="font-bold mb-2">Demo Focus Areas:</h3>
     <ul class="space-y-2">
-      <li>• Agent Mode making multi-file changes</li>
-      <li>• Terminal command execution</li>
-      <li>• Complex problem solving with context</li>
+      <li>Agent Mode making multi-file changes</li>
+      <li>Terminal command execution</li>
+      <li>Complex problem solving with context</li>
     </ul>
   </div>
 </div>
@@ -422,9 +422,9 @@ class: text-center
   <div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg max-w-lg text-left">
     <h3 class="font-bold mb-2">Demo Focus Areas:</h3>
     <ul class="space-y-2">
-      <li>• Creating a complete app from a text prompt</li>
-      <li>• Exploring the generated codebase</li>
-      <li>• Deployment and hosting</li>
+      <li>Creating a complete app from a text prompt</li>
+      <li>Exploring the generated codebase</li>
+      <li>Deployment and hosting</li>
     </ul>
   </div>
 </div>
@@ -447,40 +447,19 @@ layout: default
   <div>
     <h3 class="font-bold text-base mb-2">Key Capabilities</h3>
     <ul class="text-sm space-y-2">
-      <li class="flex items-start">
-        <span class="text-blue-500 mr-2">→</span>
-        <span><strong>Tool Usage</strong> — Functions, APIs, services</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-blue-500 mr-2">→</span>
-        <span><strong>File System</strong> — Read, write, manage files</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-blue-500 mr-2">→</span>
-        <span><strong>Web Interaction</strong> — Browse, screenshots</span>
-      </li>
+      <li>Tool Usage — Functions, APIs, services</li>
+      <li>File System — Read, write, manage files</li>
+      <li>Web Interaction — Browse, screenshots</li>
     </ul>
   </div>
   
   <div>
     <h3 class="font-bold text-base mb-2">Real-World Applications</h3>
     <ul class="text-sm space-y-2">
-      <li class="flex items-start">
-        <span class="text-purple-500 mr-2">→</span>
-        <span><strong>Development</strong> — Terminal, repo management</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-green-500 mr-2">→</span>
-        <span><strong>Integration</strong> — Databases, APIs, services</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-amber-500 mr-2">→</span>
-        <span><strong>Automation</strong> — Workflows, CI/CD pipelines</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-red-500 mr-2">→</span>
-        <span><strong>Analysis</strong> — Performance, accessibility</span>
-      </li>
+      <li>Development — Terminal, repo management</li>
+      <li>Integration — Databases, APIs, services</li>
+      <li>Automation — Workflows, CI/CD pipelines</li>
+      <li>Analysis — Performance, accessibility</li>
     </ul>
   </div>
 </div>
@@ -579,44 +558,20 @@ transition: fade
   <div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
     <h3 class="font-bold text-lg text-green-700 dark:text-green-300">Generative AI Code Tools</h3>
     <ul class="mt-2 space-y-2">
-      <li class="flex items-start">
-        <span class="text-green-500 mr-2">✓</span>
-        <div class="text-sm"><strong>Full Code Ownership</strong> — Generated code belongs to you, not locked to any platform</div>
-      </li>
-      <li class="flex items-start">
-        <span class="text-green-500 mr-2">✓</span>
-        <div class="text-sm"><strong>Standard Languages & Frameworks</strong> — Uses industry standard technologies</div>
-      </li>
-      <li class="flex items-start">
-        <span class="text-green-500 mr-2">✓</span>
-        <div class="text-sm"><strong>Unlimited Customization</strong> — Modify any part of the code without restrictions</div>
-      </li>
-      <li class="flex items-start">
-        <span class="text-green-500 mr-2">✓</span>
-        <div class="text-sm"><strong>Future-Proof</strong> — No vendor lock-in means easy migration and maintenance</div>
-      </li>
+      <li>Full Code Ownership — Generated code belongs to you, not locked to any platform</li>
+      <li>Standard Languages & Frameworks — Uses industry standard technologies</li>
+      <li>Unlimited Customization — Modify any part of the code without restrictions</li>
+      <li>Future-Proof — No vendor lock-in means easy migration and maintenance</li>
     </ul>
   </div>
   
   <div class="bg-red-50 dark:bg-red-900 p-4 rounded-lg">
     <h3 class="font-bold text-lg text-red-700 dark:text-red-300">Traditional Low/No-Code Tools</h3>
     <ul class="mt-2 space-y-2">
-      <li class="flex items-start">
-        <span class="text-red-500 mr-2">✗</span>
-        <div class="text-sm"><strong>Platform Lock-In</strong> — Solutions tied to specific vendor platforms</div>
-      </li>
-      <li class="flex items-start">
-        <span class="text-red-500 mr-2">✗</span>
-        <div class="text-sm"><strong>Limited Customization</strong> — Restricted to what the platform allows</div>
-      </li>
-      <li class="flex items-start">
-        <span class="text-red-500 mr-2">✗</span>
-        <div class="text-sm"><strong>Proprietary Systems</strong> — Often use custom visual languages</div>
-      </li>
-      <li class="flex items-start">
-        <span class="text-red-500 mr-2">✗</span>
-        <div class="text-sm"><strong>Scaling Challenges</strong> — Hit walls when requirements grow</div>
-      </li>
+      <li>Platform Lock-In — Solutions tied to specific vendor platforms</li>
+      <li>Limited Customization — Restricted to what the platform allows</li>
+      <li>Proprietary Systems — Often use custom visual languages</li>
+      <li>Scaling Challenges — Hit walls when requirements grow</li>
     </ul>
   </div>
 </div>
@@ -682,26 +637,14 @@ transition: fade
   <div class="grid grid-cols-2 gap-4 mt-2">
     <div>
       <ul class="text-sm space-y-2">
-        <li class="flex items-start">
-          <span class="text-green-500 mr-2">✓</span>
-          <span><strong>Developer Productivity</strong> — 20-30% increase in output and velocity</span>
-        </li>
-        <li class="flex items-start">
-          <span class="text-green-500 mr-2">✓</span>
-          <span><strong>Code Quality</strong> — Improved consistency and fewer bugs</span>
-        </li>
+        <li>Developer Productivity — 20-30% increase in output and velocity</li>
+        <li>Code Quality — Improved consistency and fewer bugs</li>
       </ul>
     </div>
     <div>
       <ul class="text-sm space-y-2">
-        <li class="flex items-start">
-          <span class="text-green-500 mr-2">✓</span>
-          <span><strong>Onboarding</strong> — Faster ramp-up for new team members</span>
-        </li>
-        <li class="flex items-start">
-          <span class="text-green-500 mr-2">✓</span>
-          <span><strong>Innovation</strong> — More time for solving complex business problems</span>
-        </li>
+        <li>Onboarding — Faster ramp-up for new team members</li>
+        <li>Innovation — More time for solving complex business problems</li>
       </ul>
     </div>
   </div>
@@ -766,22 +709,10 @@ transition: fade
   <div>
     <h3 class="font-bold text-base mb-2">Implementation Strategy</h3>
     <ul class="text-sm space-y-2">
-      <li class="flex items-start">
-        <span class="text-blue-600 mr-2">•</span>
-        <span>AI exploration dominates the prototype phase</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-blue-600 mr-2">•</span>
-        <span>Self-directed learning with knowledge sharing</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-blue-600 mr-2">•</span>
-        <span>Provide access to cutting-edge AI tools</span>
-      </li>
-      <li class="flex items-start">
-        <span class="text-blue-600 mr-2">•</span>
-        <span>Teams must demonstrate why AI can't solve before requesting more resources</span>
-      </li>
+      <li>AI exploration dominates the prototype phase</li>
+      <li>Self-directed learning with knowledge sharing</li>
+      <li>Provide access to cutting-edge AI tools</li>
+      <li>Teams must demonstrate why AI can't solve before requesting more resources</li>
     </ul>
   </div>
 </div>
