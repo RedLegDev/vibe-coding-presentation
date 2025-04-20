@@ -164,6 +164,44 @@ transition: fade
 transition: fade-out
 ---
 
+# The Rise of AI Development Tools
+
+<div grid="~ cols-2 gap-4">
+<div>
+
+## Current Landscape
+- Explosion of AI-powered development tools
+- Shift from traditional coding to AI-assisted
+- Major players: OpenAI, GitHub, Microsoft, Google
+- Focus on productivity and augmentation
+
+</div>
+<div>
+
+## Key Trends & Drivers
+- Advancements in large language models
+- Increasing development costs
+- Talent shortages in tech
+- Need for faster time-to-market
+- Digital transformation acceleration
+
+</div>
+</div>
+
+<div class="mt-8">
+  <v-click>
+    <div class="bg-blue-100 dark:bg-blue-800 p-4 rounded-lg">
+      <h3 class="text-blue-700 dark:text-blue-200 font-bold">Benefits & Challenges</h3>
+      <p class="text-sm"><strong>Benefits:</strong> Faster development, reduced costs, democratized coding</p>
+      <p class="text-sm mt-2"><strong>Challenges:</strong> Learning curve, quality control, overreliance, security concerns</p>
+    </div>
+  </v-click>
+</div>
+
+---
+transition: fade-out
+---
+
 <div class="flex justify-center mb-2">
   <img src="/images/ai-coding-evolution.avif" alt="Evolution of AI Coding Strategies graph showing progression from 2022 to 2027" class="w-3/5" />
 </div>
@@ -232,254 +270,6 @@ layout: two-cols
 
 ---
 transition: fade-out
----
-
-# The Rise of AI Development Tools
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-## Current Landscape
-- Explosion of AI-powered development tools
-- Shift from traditional coding to AI-assisted
-- Major players: OpenAI, GitHub, Microsoft, Google
-- Focus on productivity and augmentation
-
-</div>
-<div>
-
-## Key Trends & Drivers
-- Advancements in large language models
-- Increasing development costs
-- Talent shortages in tech
-- Need for faster time-to-market
-- Digital transformation acceleration
-
-</div>
-</div>
-
-<div class="mt-8">
-  <v-click>
-    <div class="bg-blue-100 dark:bg-blue-800 p-4 rounded-lg">
-      <h3 class="text-blue-700 dark:text-blue-200 font-bold">Benefits & Challenges</h3>
-      <p class="text-sm"><strong>Benefits:</strong> Faster development, reduced costs, democratized coding</p>
-      <p class="text-sm mt-2"><strong>Challenges:</strong> Learning curve, quality control, overreliance, security concerns</p>
-    </div>
-  </v-click>
-</div>
-
----
-layout: section
----
-
-# Hands-on Demos and Workflows
-
-Let's explore specific tools that can accelerate our development
-
----
-layout: default
----
-
-# A. GitHub Copilot
-
-<div class="grid grid-cols-2 gap-4">
-  <div class="text-sm">
-  <v-clicks>
-
-  - **For Coding & Refactoring**
-    - Real-time code suggestions
-    - Works in your existing IDE
-
-  - **Language & Framework Support**
-    - Multi-language compatibility
-    - Framework-aware completions
-
-  - **Context-Aware Intelligence**
-    - Understands your codebase
-    - Adapts to your coding style
-
-  </v-clicks>
-  <div class="mt-2">
-    <a href="https://github.com/features/copilot" target="_blank" class="text-blue-500 hover:underline">github.com/features/copilot</a>
-  </div>
-  </div>
-  
-  <div class="flex items-center justify-center">
-    <video 
-      src="https://github.githubassets.com/assets/hero-animation-lg-315ab307b8a1.mp4"
-      autoplay
-      loop
-      muted
-      class="rounded-lg shadow-xl w-full max-w-md"
-    ></video>
-  </div>
-</div>
-
----
-layout: center
-class: text-center
----
-
-# Live Demo: GitHub Copilot
-
-<div class="text-xl mb-10">Let's see GitHub Copilot in action</div>
-
-<div class="grid grid-cols-2 gap-8 items-center">
-  <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg max-w-lg text-left">
-    <h3 class="font-bold mb-2">Demo Focus Areas:</h3>
-    <ul class="space-y-2">
-      <li>Real-time code suggestions</li>
-      <li>Function completion from comments</li>
-      <li>Context-aware completions</li>
-      <li>@azure integration example</li>
-    </ul>
-  </div>
-  
-  <div class="flex items-center justify-center">
-    <img 
-      src="/images/copilot-azure.png"
-      alt="GitHub Copilot interacting with Azure extension"
-      class="rounded-lg shadow-xl w-full max-w-sm"
-    />
-  </div>
-</div>
-
----
-layout: default
----
-
-# B. Cursor
-
-<div class="grid grid-cols-2 gap-4">
-  <div class="text-sm">
-    <ul class="space-y-4">
-      <li>
-        <strong>AI-Enhanced Editor</strong>
-        <ul class="mt-1 space-y-1">
-          <li>Built on VS Code platform</li>
-          <li>Optimized for AI assistance</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Powerful Agent Mode</strong>
-        <ul class="mt-1 space-y-1">
-          <li>Makes changes to multiple files</li>
-          <li>Runs terminal commands</li>
-          <li>Reads & responds to error outputs</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Intelligent Context</strong>
-        <ul class="mt-1 space-y-1">
-          <li>Understands your full project</li>
-          <li>Accesses documentation & GitHub</li>
-          <li>Autonomously solves complex tasks</li>
-        </ul>
-      </li>
-    </ul>
-    <div class="mt-2">
-      <a href="https://www.cursor.com/" target="_blank" class="text-blue-500 hover:underline">cursor.com</a>
-    </div>
-  </div>
-
-  <div class="flex items-center justify-center">
-    <img 
-      src="/images/cursor-screenshot.png"
-      alt="Cursor IDE screenshot showing AI-assisted coding"
-      class="rounded-lg shadow-xl w-full"
-    />
-  </div>
-</div>
-
----
-layout: center
-class: text-center
----
-
-# Live Demo: Cursor
-
-<div class="text-xl mb-10">Watch Cursor's powerful Agent Mode solve complex tasks</div>
-
-<div class="flex justify-center">
-  <div class="bg-purple-50 dark:bg-purple-900 p-4 rounded-lg max-w-lg text-left">
-    <h3 class="font-bold mb-2">Demo Focus Areas:</h3>
-    <ul class="space-y-2">
-      <li>Agent Mode making multi-file changes</li>
-      <li>Terminal command execution</li>
-      <li>Complex problem solving with context</li>
-    </ul>
-  </div>
-</div>
-
----
-layout: default
----
-
-# C. Lovable.dev
-
-<div class="grid grid-cols-2 gap-4">
-  <div class="text-sm">
-    <ul class="space-y-4">
-      <li>
-        <strong>Idea to App in Seconds</strong>
-        <ul class="mt-1 space-y-1">
-          <li>Complete app generation</li>
-          <li>React & Next.js focused</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Superhuman Full Stack Engineer</strong>
-        <ul class="mt-1 space-y-1">
-          <li>Natural language to functioning code</li>
-          <li>Handles complex requirements</li>
-        </ul>
-      </li>
-      <li>
-        <strong>End-to-End Solutions</strong>
-        <ul class="mt-1 space-y-1">
-          <li>Rapid prototyping</li>
-          <li>Automatic deployment</li>
-          <li>Ongoing maintenance</li>
-        </ul>
-      </li>
-    </ul>
-    <div class="mt-2">
-      <a href="https://lovable.dev/" target="_blank" class="text-blue-500 hover:underline">lovable.dev</a>
-    </div>
-  </div>
-  
-  <div class="flex items-center justify-center">
-    <img 
-      src="/images/lovable-screenshot.png"
-      alt="Lovable.dev interface showing AI app generation"
-      class="rounded-lg shadow-xl w-full"
-    />
-  </div>
-</div>
-
----
-layout: center
-class: text-center
----
-
-# Live Demo: Lovable.dev
-
-<div class="text-xl mb-10">From idea to deployed app in minutes</div>
-
-<div class="flex justify-center">
-  <div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg max-w-lg text-left">
-    <h3 class="font-bold mb-2">Demo Focus Areas:</h3>
-    <ul class="space-y-2">
-      <li>Creating a complete app from a text prompt</li>
-      <li>Exploring the generated codebase</li>
-      <li>Deployment and hosting</li>
-    </ul>
-  </div>
-</div>
-
----
-transition: slide-up
-layout: default
 ---
 
 # The Power of MCP: Expanding AI Integration
