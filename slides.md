@@ -338,26 +338,36 @@ layout: default
 
 <div class="grid grid-cols-2 gap-4">
   <div class="text-sm">
-  <v-clicks>
+    <ul class="space-y-4">
+      <li>
+        <strong>AI-Enhanced Editor</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Built on VS Code platform</li>
+          <li>Optimized for AI assistance</li>
+        </ul>
+      </li>
 
-  - **AI-Enhanced Editor**
-    - Built on VS Code platform
-    - Optimized for AI assistance
+      <li>
+        <strong>Powerful Agent Mode</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Makes changes to multiple files</li>
+          <li>Runs terminal commands</li>
+          <li>Reads & responds to error outputs</li>
+        </ul>
+      </li>
 
-  - **Powerful Agent Mode**
-    - Makes changes to multiple files
-    - Runs terminal commands
-    - Reads & responds to error outputs
-
-  - **Intelligent Context**
-    - Understands your full project
-    - Accesses documentation & GitHub
-    - Autonomously solves complex tasks
-
-  </v-clicks>
-  <div class="mt-2">
-    <a href="https://www.cursor.com/" target="_blank" class="text-blue-500 hover:underline">cursor.com</a>
-  </div>
+      <li>
+        <strong>Intelligent Context</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Understands your full project</li>
+          <li>Accesses documentation & GitHub</li>
+          <li>Autonomously solves complex tasks</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="mt-2">
+      <a href="https://www.cursor.com/" target="_blank" class="text-blue-500 hover:underline">cursor.com</a>
+    </div>
   </div>
   
   <div class="flex items-center justify-center">
