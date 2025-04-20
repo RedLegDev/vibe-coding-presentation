@@ -107,7 +107,7 @@ transition: fade-out
 <div grid="~ cols-2 gap-4">
 <div>
 
-## A. Current Landscape
+## Current Landscape
 - Explosion of AI-powered development tools
 - Shift from traditional coding to AI-assisted
 - Major players: OpenAI, GitHub, Microsoft, Google
@@ -116,7 +116,7 @@ transition: fade-out
 </div>
 <div>
 
-## B. Key Trends & Drivers
+## Key Trends & Drivers
 - Advancements in large language models
 - Increasing development costs
 - Talent shortages in tech
@@ -129,8 +129,9 @@ transition: fade-out
 <div class="mt-8">
   <v-click>
     <div class="bg-blue-100 dark:bg-blue-800 p-4 rounded-lg">
-      <h3 class="text-blue-700 dark:text-blue-200 font-bold">C. Benefits & Challenges</h3>
-      <p class="text-sm">Benefits: Faster development, reduced costs, democratized coding. Challenges: Learning curve, quality control, overreliance, security concerns.</p>
+      <h3 class="text-blue-700 dark:text-blue-200 font-bold">Benefits & Challenges</h3>
+      <p class="text-sm"><strong>Benefits:</strong> Faster development, reduced costs, democratized coding</p>
+      <p class="text-sm mt-2"><strong>Challenges:</strong> Learning curve, quality control, overreliance, security concerns</p>
     </div>
   </v-click>
 </div>
