@@ -39,10 +39,10 @@ image: https://images.unsplash.com/photo-1568716353609-12ddc5c67f04?q=80&w=1974&
 <div class="text-lg">
 <v-clicks>
 
-- The Rise of AI Development Tools
-- Use Cases for Large Language Models (LLMs)
+- The Rapidly Evolving Landscape
 - Leveraging LLMs for Product Management
-- Hands-on Demos and Workflows
+- Use Cases for Large Language Models
+- AI Development Tools & Demos
 - Applying Lessons to the Business
 
 </v-clicks>
