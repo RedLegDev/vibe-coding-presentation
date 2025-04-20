@@ -407,25 +407,35 @@ layout: default
 
 <div class="grid grid-cols-2 gap-4">
   <div class="text-sm">
-  <v-clicks>
+    <ul class="space-y-4">
+      <li>
+        <strong>Idea to App in Seconds</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Complete app generation</li>
+          <li>React & Next.js focused</li>
+        </ul>
+      </li>
 
-  - **Idea to App in Seconds**
-    - Complete app generation
-    - React & Next.js focused
+      <li>
+        <strong>Superhuman Full Stack Engineer</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Natural language to functioning code</li>
+          <li>Handles complex requirements</li>
+        </ul>
+      </li>
 
-  - **Superhuman Full Stack Engineer**
-    - Natural language to functioning code
-    - Handles complex requirements
-
-  - **End-to-End Solutions**
-    - Rapid prototyping
-    - Automatic deployment
-    - Ongoing maintenance
-
-  </v-clicks>
-  <div class="mt-2">
-    <a href="https://lovable.dev/" target="_blank" class="text-blue-500 hover:underline">lovable.dev</a>
-  </div>
+      <li>
+        <strong>End-to-End Solutions</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Rapid prototyping</li>
+          <li>Automatic deployment</li>
+          <li>Ongoing maintenance</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="mt-2">
+      <a href="https://lovable.dev/" target="_blank" class="text-blue-500 hover:underline">lovable.dev</a>
+    </div>
   </div>
   
   <div class="flex items-center justify-center">
