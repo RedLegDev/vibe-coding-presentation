@@ -186,13 +186,12 @@ transition: fade-out
 </div>
 
 ---
-transition: fade
+layout: two-cols
 ---
 
 # Use Cases for Large Language Models
 
 <div class="text-sm">
-<v-clicks>
 
 - **Code Generation & Automation**
   - Writing boilerplate code
@@ -206,13 +205,11 @@ transition: fade
   - Bug fixes from descriptions
   - API exploration via conversation
 
-</v-clicks>
 </div>
 
-<div class="ml-4">
+::right::
 
-<div class="text-sm">
-<v-clicks>
+<div class="text-sm ml-4">
 
 - **Ideation & Problem-Solving**
   - Architecture suggestions
@@ -220,25 +217,16 @@ transition: fade
   - Algorithm selection
   - Technical debt identification
 
-</v-clicks>
-</div>
+<div class="mt-4 bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
+<h3 class="font-bold mb-2">Real-World Impact</h3>
 
-<v-click>
-<div class="rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700 mt-4">
-  <div class="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-4">
-    <h3 class="font-bold">Real-World Impact</h3>
-  </div>
-  <div class="p-4 bg-white dark:bg-gray-800">
-    <ul class="space-y-2 text-sm">
-      <li>🚀 40-80% faster code completion</li>
-      <li>👥 Junior devs perform at senior levels</li>
-      <li>💡 More innovative solutions</li>
-      <li>📝 Reduced documentation time</li>
-      <li>🔄 Quicker iteration cycles</li>
-    </ul>
-  </div>
+- 🚀 40-80% faster code completion
+- 👥 Junior devs perform at senior levels
+- 💡 More innovative solutions
+- 📝 Reduced documentation time
+- 🔄 Quicker iteration cycles
+
 </div>
-</v-click>
 
 </div>
 
@@ -393,7 +381,7 @@ layout: default
       <a href="https://www.cursor.com/" target="_blank" class="text-blue-500 hover:underline">cursor.com</a>
     </div>
   </div>
-  
+
   <div class="flex items-center justify-center">
     <img 
       src="/images/cursor-screenshot.png"
