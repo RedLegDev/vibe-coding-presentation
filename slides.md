@@ -102,26 +102,24 @@ Building a presentation about AI development tools is like trying to hit a movin
 transition: fade-out
 ---
 
-# The Evolution of AI Coding Strategies
-
-<div class="flex justify-center mb-4">
-  <img src="/images/ai-coding-evolution.avif" alt="Evolution of AI Coding Strategies graph showing progression from 2022 to 2027" class="w-4/5" />
+<div class="flex justify-center mb-2">
+  <img src="/images/ai-coding-evolution.avif" alt="Evolution of AI Coding Strategies graph showing progression from 2022 to 2027" class="w-3/5" />
 </div>
 
-<div class="grid grid-cols-3 gap-4 px-4">
-  <div class="bg-green-50 dark:bg-green-900 p-3 rounded-lg">
-    <h3 class="font-bold text-sm text-center text-green-700 dark:text-green-300">2022-2023</h3>
-    <p class="text-xs mt-1">Code completions dominate, offering real-time suggestions while coding. Traditional programming begins decline.</p>
+<div class="grid grid-cols-3 gap-2 px-4">
+  <div class="bg-green-50 dark:bg-green-900 p-2 rounded-lg">
+    <h3 class="font-bold text-xs text-center text-green-700 dark:text-green-300">2022-2023</h3>
+    <p class="text-xs mt-0.5">Code completions dominate, offering real-time suggestions while coding. Traditional programming begins decline.</p>
   </div>
 
-  <div class="bg-purple-50 dark:bg-purple-900 p-3 rounded-lg">
-    <h3 class="font-bold text-sm text-center text-purple-700 dark:text-purple-300">2024-2025</h3>
-    <p class="text-xs mt-1">Chat-based programming rises, enabling natural language interactions. Coding agents emerge as powerful alternatives.</p>
+  <div class="bg-purple-50 dark:bg-purple-900 p-2 rounded-lg">
+    <h3 class="font-bold text-xs text-center text-purple-700 dark:text-purple-300">2024-2025</h3>
+    <p class="text-xs mt-0.5">Chat-based programming rises, enabling natural language interactions. Coding agents emerge as powerful alternatives.</p>
   </div>
 
-  <div class="bg-blue-50 dark:bg-blue-900 p-3 rounded-lg">
-    <h3 class="font-bold text-sm text-center text-blue-700 dark:text-blue-300">2026-2027</h3>
-    <p class="text-xs mt-1">Agent clusters and fleets become dominant, managing multiple AI agents for complex development tasks.</p>
+  <div class="bg-blue-50 dark:bg-blue-900 p-2 rounded-lg">
+    <h3 class="font-bold text-xs text-center text-blue-700 dark:text-blue-300">2026-2027</h3>
+    <p class="text-xs mt-0.5">Agent clusters and fleets become dominant, managing multiple AI agents for complex development tasks.</p>
   </div>
 </div>
 
