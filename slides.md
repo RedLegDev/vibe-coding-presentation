@@ -102,6 +102,33 @@ Building a presentation about AI development tools is like trying to hit a movin
 transition: fade-out
 ---
 
+# The Evolution of AI Coding Strategies
+
+<div class="flex justify-center mb-4">
+  <img src="/images/ai-coding-evolution.avif" alt="Evolution of AI Coding Strategies graph showing progression from 2022 to 2027" class="w-4/5" />
+</div>
+
+<div class="grid grid-cols-3 gap-4 px-4">
+  <div class="bg-green-50 dark:bg-green-900 p-3 rounded-lg">
+    <h3 class="font-bold text-sm text-center text-green-700 dark:text-green-300">2022-2023</h3>
+    <p class="text-xs mt-1">Code completions dominate, offering real-time suggestions while coding. Traditional programming begins decline.</p>
+  </div>
+
+  <div class="bg-purple-50 dark:bg-purple-900 p-3 rounded-lg">
+    <h3 class="font-bold text-sm text-center text-purple-700 dark:text-purple-300">2024-2025</h3>
+    <p class="text-xs mt-1">Chat-based programming rises, enabling natural language interactions. Coding agents emerge as powerful alternatives.</p>
+  </div>
+
+  <div class="bg-blue-50 dark:bg-blue-900 p-3 rounded-lg">
+    <h3 class="font-bold text-sm text-center text-blue-700 dark:text-blue-300">2026-2027</h3>
+    <p class="text-xs mt-1">Agent clusters and fleets become dominant, managing multiple AI agents for complex development tasks.</p>
+  </div>
+</div>
+
+---
+transition: fade-out
+---
+
 # Leveraging LLMs for Product Management
 
 <div class="grid grid-cols-3 gap-4 mt-6">
@@ -338,26 +365,36 @@ layout: default
 
 <div class="grid grid-cols-2 gap-4">
   <div class="text-sm">
-  <v-clicks>
+    <ul class="space-y-4">
+      <li>
+        <strong>AI-Enhanced Editor</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Built on VS Code platform</li>
+          <li>Optimized for AI assistance</li>
+        </ul>
+      </li>
 
-  - **AI-Enhanced Editor**
-    - Built on VS Code platform
-    - Optimized for AI assistance
+      <li>
+        <strong>Powerful Agent Mode</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Makes changes to multiple files</li>
+          <li>Runs terminal commands</li>
+          <li>Reads & responds to error outputs</li>
+        </ul>
+      </li>
 
-  - **Powerful Agent Mode**
-    - Makes changes to multiple files
-    - Runs terminal commands
-    - Reads & responds to error outputs
-
-  - **Intelligent Context**
-    - Understands your full project
-    - Accesses documentation & GitHub
-    - Autonomously solves complex tasks
-
-  </v-clicks>
-  <div class="mt-2">
-    <a href="https://www.cursor.com/" target="_blank" class="text-blue-500 hover:underline">cursor.com</a>
-  </div>
+      <li>
+        <strong>Intelligent Context</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Understands your full project</li>
+          <li>Accesses documentation & GitHub</li>
+          <li>Autonomously solves complex tasks</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="mt-2">
+      <a href="https://www.cursor.com/" target="_blank" class="text-blue-500 hover:underline">cursor.com</a>
+    </div>
   </div>
   
   <div class="flex items-center justify-center">
@@ -397,25 +434,35 @@ layout: default
 
 <div class="grid grid-cols-2 gap-4">
   <div class="text-sm">
-  <v-clicks>
+    <ul class="space-y-4">
+      <li>
+        <strong>Idea to App in Seconds</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Complete app generation</li>
+          <li>React & Next.js focused</li>
+        </ul>
+      </li>
 
-  - **Idea to App in Seconds**
-    - Complete app generation
-    - React & Next.js focused
+      <li>
+        <strong>Superhuman Full Stack Engineer</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Natural language to functioning code</li>
+          <li>Handles complex requirements</li>
+        </ul>
+      </li>
 
-  - **Superhuman Full Stack Engineer**
-    - Natural language to functioning code
-    - Handles complex requirements
-
-  - **End-to-End Solutions**
-    - Rapid prototyping
-    - Automatic deployment
-    - Ongoing maintenance
-
-  </v-clicks>
-  <div class="mt-2">
-    <a href="https://lovable.dev/" target="_blank" class="text-blue-500 hover:underline">lovable.dev</a>
-  </div>
+      <li>
+        <strong>End-to-End Solutions</strong>
+        <ul class="mt-1 space-y-1">
+          <li>Rapid prototyping</li>
+          <li>Automatic deployment</li>
+          <li>Ongoing maintenance</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="mt-2">
+      <a href="https://lovable.dev/" target="_blank" class="text-blue-500 hover:underline">lovable.dev</a>
+    </div>
   </div>
   
   <div class="flex items-center justify-center">
@@ -731,6 +778,41 @@ transition: fade
       <li>Self-directed learning with knowledge sharing</li>
       <li>Provide access to cutting-edge AI tools</li>
       <li>Teams must demonstrate why AI can't solve before requesting more resources</li>
+    </ul>
+  </div>
+</div>
+
+---
+transition: fade
+---
+
+# Industry Perspective: The Rise of AI-First Development
+
+<div class="flex flex-col items-center mb-6">
+  <div class="bg-purple-50 dark:bg-purple-800 p-4 rounded-lg w-3/4 text-center">
+    <p class="italic text-sm">"It's not AI's job to prove it's better than you. It's your job to get better using AI."</p>
+    <p class="text-right text-xs mt-2">— Steve Yegge, Sourcegraph</p>
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-8 px-8">
+  <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
+    <h3 class="font-bold text-base mb-2 text-center text-blue-700 dark:text-blue-300">Key Observations</h3>
+    <ul class="text-sm space-y-2">
+      <li>Junior developers leading AI adoption</li>
+      <li>Rapid shift from completions to agents</li>
+      <li>Traditional coding becoming obsolete</li>
+      <li>AI competency becoming mandatory</li>
+    </ul>
+  </div>
+  
+  <div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
+    <h3 class="font-bold text-base mb-2 text-center text-green-700 dark:text-green-300">Future Implications</h3>
+    <ul class="text-sm space-y-2">
+      <li>Engineers will focus on agent management</li>
+      <li>Vast productivity gains expected</li>
+      <li>More ambitious software projects</li>
+      <li>Resistance to AI = career risk</li>
     </ul>
   </div>
 </div>
