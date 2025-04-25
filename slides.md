@@ -353,7 +353,7 @@ layout: default
 # B. GitHub Copilot
 
 <div class="grid grid-cols-2 gap-4">
-  <div class="text-sm">
+  <div class="text-xs">
   <v-clicks>
 
   - **For Coding & Refactoring**
@@ -367,6 +367,11 @@ layout: default
   - **Context-Aware Intelligence**
     - Understands your codebase
     - Adapts to your coding style
+    
+  - **PR Code Review**
+    - Summarizes file changes
+    - Identifies code issues
+    - Not in Azure DevOps yet
 
   </v-clicks>
   <div class="mt-2">
