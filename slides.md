@@ -356,26 +356,26 @@ layout: default
   <div class="text-xs">
   <v-clicks>
 
-  - **For Coding & Refactoring**
+  - **Coding & Refactoring**
     - Real-time code suggestions
-    - Works in your existing IDE
+    - Works in existing IDEs
 
-  - **Language & Framework Support**
+  - **Broad Support**
     - Multi-language compatibility
     - Framework-aware completions
 
-  - **Context-Aware Intelligence**
+  - **Intelligence**
     - Understands your codebase
-    - Adapts to your coding style
+    - Adapts to coding style
     
-  - **PR Code Review**
-    - Summarizes file changes
-    - Identifies code issues
-    - Not in Azure DevOps yet
+  - **PR Reviews**
+    - Summarizes changes
+    - Flags code issues
+    - Not in Azure DevOps
 
   </v-clicks>
-  <div class="mt-2">
-    <a href="https://github.com/features/copilot" target="_blank" class="text-blue-500 hover:underline">github.com/features/copilot</a>
+  <div class="mt-1">
+    <a href="https://github.com/features/copilot" target="_blank" class="text-blue-500 hover:underline text-xs">github.com/features/copilot</a>
   </div>
   </div>
   
