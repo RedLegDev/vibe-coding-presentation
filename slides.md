@@ -775,6 +775,50 @@ transition: fade
 
 ---
 
+# Risks & Concerns with AI Code Generation
+
+<div class="grid grid-cols-2 gap-4 mt-4">
+  <div class="bg-red-50 dark:bg-red-900 p-4 rounded-lg">
+    <h3 class="font-bold text-xl text-red-700 dark:text-red-300">Security Risks</h3>
+    <ul class="mt-2 text-base">
+      <li>Insecure code patterns</li>
+      <li>Outdated security practices</li>
+      <li>Dependency vulnerabilities</li>
+    </ul>
+  </div>
+  
+  <div class="bg-amber-50 dark:bg-amber-900 p-4 rounded-lg">
+    <h3 class="font-bold text-xl text-amber-700 dark:text-amber-300">Code Quality Issues</h3>
+    <ul class="mt-2 text-base">
+      <li>Inefficient algorithms</li>
+      <li>Hidden technical debt</li>
+      <li>Inconsistent patterns</li>
+    </ul>
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-4 mt-4">
+  <div class="bg-blue-50 dark:bg-blue-900 p-4 rounded-lg">
+    <h3 class="font-bold text-xl text-blue-700 dark:text-blue-300">Control & Responsibility</h3>
+    <ul class="mt-2 text-base">
+      <li>Unintended system modifications</li>
+      <li>Database/service alterations</li>
+      <li>Developers accountable for unfamiliar code</li>
+    </ul>
+  </div>
+  
+  <div class="bg-green-50 dark:bg-green-900 p-4 rounded-lg">
+    <h3 class="font-bold text-xl text-green-700 dark:text-green-300">Best Practices</h3>
+    <ul class="mt-2 text-base">
+      <li>Require thorough code reviews</li>
+      <li>Test all generated code</li>
+      <li>Understand before implementing</li>
+    </ul>
+  </div>
+</div>
+
+---
+
 # Apply These Lessons to the Business
 
 <div class="grid grid-cols-2 gap-4 mt-4">
