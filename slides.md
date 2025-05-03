@@ -868,10 +868,11 @@ class: text-center
 
 # Brought to you by Red Leg Dev
 
-<div class="mt-8">
+<div class="mt-8 flex flex-col items-center">
   <a href="https://redleg.dev" target="_blank" class="text-xl font-bold text-blue-500 hover:text-blue-600 transition-colors">
     redleg.dev
   </a>
+  <img src="https://redleg.dev/lovable-uploads/42c75578-8cab-474c-8406-4e3399ba0363.png" alt="Red Leg Dev Logo" class="mt-6 w-32 h-32 object-contain" />
 </div>
 
 <div class="mt-4 text-sm opacity-75">
@@ -885,3 +886,9 @@ layout: end
 # Thank You
 
 Questions?
+
+<div class="mt-6">
+  <a href="https://redleg.dev/contact" target="_blank" class="text-blue-500 text-lg font-bold hover:underline">
+    Contact me with questions or follow-up →
+  </a>
+</div>
